@@ -10,9 +10,9 @@ collections:
     output: true
 email: www@deskandstudio.com
 description: 'Get out of the home office and unlock your creative potential. Co-working space from $50 per day plus studio/conference facilities. Phone (0438) 698 924.'
-repository: 'nbpayne/deskandstudio-beta'
+repository: 'nbpayne/deskandstudio'
 baseurl: 
-url: http://beta.deskandstudio.com
+url: http://www.deskandstudio.com
 twitter:
   username: deskandstudio
 markdown: kramdown
