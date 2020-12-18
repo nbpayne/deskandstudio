@@ -3,9 +3,11 @@ title: Keep up with our latest news and specials!
 permalink: "/mailing-list/"
 layout: default
 nav: Contact
-description: Join our mailing list to keep up with our latest news and access specials deals.
+description: Join our mailing list to keep up with our latest news and access specials
+  deals.
 heading: Join our mailing list
-subheading: ...and be the first to know about studio availability, worshops, and other good stuff
+subheading: "...and be the first to know about studio availability, worshops, and
+  other good stuff"
 image:
   path: "/images/heros/contact-md.jpg"
   width: 1600
