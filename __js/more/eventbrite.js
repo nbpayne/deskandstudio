@@ -2,7 +2,7 @@
 $(function() {
   eventbrite_url = 'https://www.eventbriteapi.com/v3/organizations/266418941811/events/?status=live&token=HS4VPDV6QYZK3J7B5BS3';
   $.getJSON(eventbrite_url, function(response) {
-    $.getJSON()
+    $.getJSON();
     var tbody = $('#workshops tbody');
     for(var event in response.events) {
       var startDate = moment(response.events[event].start.local);
