@@ -14,6 +14,8 @@ image:
 redirect_from: "/studio/"
 ---
 
+[![Studio B Package -- $295 Full Day Hire. Use the promo code StudioBPackage.](/images/photo-studio/studio-b-special-jan-21.jpg){: .float-right .img-fluid .ml-5 .mb-5 }](https://deskandstudio.simplybook.me/v2/#book){: target="_blank"}
+
 Our large light-filled photo studio has been designed to be used as a natural light photography studio, but can be easily transformed for flash and continuous lighting.
 {: .lead }
 
