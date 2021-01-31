@@ -9,11 +9,12 @@ collections:
     title: Uploads
     output: true
 email: www@deskandstudio.com
-description: Get out of the home office and unlock your creative potential. Co-working
-  space from $50 per day plus studio/conference facilities. Phone (0438) 698 924.
+description: Boutique photo studio with options of natural or studio lighting. Studio
+  hire starting from $215 plus co-working/meeting/event facilities. Phone (0438) 698
+  924.
 repository: nbpayne/deskandstudio
 baseurl: 
-url: http://www.deskandstudio.com
+url: https://www.deskandstudio.com
 twitter:
   username: deskandstudio
 markdown: kramdown

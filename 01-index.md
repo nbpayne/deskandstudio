@@ -4,7 +4,7 @@ permalink: "/"
 layout: home
 nav: Home
 description: Boutique photo studio with options of natural or studio lighting. Studio
-  hire starting from $195 plus co-working/meeting/event facilities. Phone (0438) 698
+  hire starting from $215 plus co-working/meeting/event facilities. Phone (0438) 698
   924.
 heading: Photo studio hire in Sydney
 subheading: A personal touch to studio hire and flexible co-working for creatives,

@@ -16,7 +16,6 @@ var rename = require('gulp-rename');
 var runsequence = require('run-sequence');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
-var stylish = require('csslint-stylish');
 var uglify = require('gulp-uglify');
 var useref = require('gulp-useref');
 var webp = require('gulp-webp');
@@ -47,7 +46,7 @@ gulp.task('css', function () {
     gulp.src('__sass/*.scss')
       .pipe(sass())
       .pipe(csslint())
-      .pipe(csslint.formatter(stylish))
+      .pipe(csslint.formatter('compact'))
       .pipe(sourcemaps.init())
       .pipe(cssnano())
       .pipe(rename({suffix:'.min'}))
