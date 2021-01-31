@@ -61,15 +61,16 @@ The studio has a number of equipment options available, including:
 - Snoot
 - China ball lantern
 - Red velvet curtains -- for a dramatic backdrop
-- Infinity backdrops -- white, black, grey, chroma key green and various coloured options.
+- Paper roll backdrops -- white, black, grey, chroma key green and various other colours
 - False floors -- white washed wooden packing crates for an elevated surface
 - Sandbags
 - Extension cables
-- 2 x continuous lighting 600 bi-colour LED panels
-- 1 x edge lit continous LED light
+- 2 x Godox SL150II high power continuoues LED Light with bowens mount to suit all our light shapers
 - 1 x Godox SL150W high power continuous LED light with bowens mount to suit all our light shapers
 - 1 x Godox SL200W high power continuous LED light with bowens mount to suit all our light shapers
+- 2 x continuous lighting 600 bi-colour LED panels
 - 2 x DS60/2.5T 2ft Kino style tungsten balanced continuous LED light
+- 1 x edge lit continous LED light
 
 We are continually growing our equipment list, please call the studio manager if you have any additional requirements.
 

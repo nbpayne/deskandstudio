@@ -83,11 +83,12 @@ Equipment includes, but is not limited to:
 - Infinity backdrops -- white, black, grey, chroma key green and various coloured options
 - Painted backdrops -- black, and gold
 - White painted brick walls
-- 2 x continuous lighting 600 bi-colour LED panels
-- 1 x edge lit continous LED light
+- 2 x Godox SL150II high power continuoues LED Light with bowens mount to suit all our light shapers
 - 1 x Godox SL150W high power continuous LED light with bowens mount to suit all our light shapers
 - 1 x Godox SL200W high power continuous LED light with bowens mount to suit all our light shapers
-- 1 x DS60/2.5T 2ft Kino style tungsten balanced continuous LED light
+- 2 x continuous lighting 600 bi-colour LED panels
+- 2 x DS60/2.5T 2ft Kino style tungsten balanced continuous LED light
+- 1 x edge lit continous LED light
 - Standard soft boxes
 - Umbrellas
 - Beauty dish
