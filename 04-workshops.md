@@ -21,6 +21,14 @@ Numbers are limited to 5 people at a time to allow for heaps of hands on experie
 
 Topics covered will be announced in advance of each workshop, and will includes areas such as: natural lighting, studio lighting, retouching in photoshop, flash photography, etc,. We always want to hear new ideas on topics to cover so please suggest anything that interests you.
 
+{{ date }}
+
+### Next workshop
+
+---
+
+![Portrait and Beauty Photography Masterclass with Felix Rachor](/images/workshops/felix-rachor-masterclass.jpg){: .img-fluid }
+
 ### Upcoming photography workshops
 
 ---
