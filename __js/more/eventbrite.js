@@ -6,7 +6,7 @@ $(function() {
     if (response.events) {
       nextWorkshopDetail.append(
         '<p>' +
-          '<a target="_blank" href=' + response.events[0].url + '>' +
+          '<a target="_blank" href="' + response.events[0].url + '?aff=Website">' +
           '<img src="' + response.events[0].logo.original.url + '" ' +
           'alt="' + response.events[0].name.text + '" ' +
           'title="' + response.events[0].name.text + '" ' +
@@ -18,7 +18,7 @@ $(function() {
           moment(response.events[0].start.local).format('h:mmA') + ' - ' + 
           moment(response.events[0].end.local).format('h:mmA') + '</small></h4>' +
         '<p>' + response.events[0].description.html + '</p>' + 
-        '<p><a target="_blank" href="' + response.events[0].url + '">Find out more information and get tickets</a></p>'
+        '<p><a target="_blank" href="' + response.events[0].url + '?aff=Website">Find out more information and get tickets</a></p>'
       );
       var tbody = $('#workshops tbody');
       for(var event in response.events) {
@@ -34,7 +34,7 @@ $(function() {
               '<dl>' +
                 '<dt>' + response.events[event].name.text + '</dt>' +
                 '<dd>' +
-                  '<a href="' + response.events[event].url + '" target="_blank">Get tickets</a>' +
+                  '<a href="' + response.events[event].url + '?aff=Website" target="_blank">Get tickets</a>' +
                 '</dd>' +
               '</dl>' +
             '</td>' +
