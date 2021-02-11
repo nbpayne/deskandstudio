@@ -1,29 +1,43 @@
 // Get upcoming workshops from meetup
 $(function() {
+  // API URI
   eventbrite_url = 'https://www.eventbriteapi.com/v3/organizations/266418941811/events/?status=live&token=HS4VPDV6QYZK3J7B5BS3';
+
+  // Go get 'em!
   $.getJSON(eventbrite_url, function(response) {
+    // Grab the HTML element we are going to populate
     var nextWorkshopDetail = $('#next-workshop-detail');
+
+    // Check we actually got a response
     if (response.events) {
+      // We did! Let's show the details of the very next workshop
+      var nextWorkshop = response.events[0]; // The next workshop
+      var affiliateTag = 'aff=Website'; // Track affiliate link on Eventbrite
+
+      // Display the deets
       nextWorkshopDetail.append(
         '<p>' +
-          '<a target="_blank" href="' + response.events[0].url + '?aff=Website">' +
-          '<img src="' + response.events[0].logo.original.url + '" ' +
-          'alt="' + response.events[0].name.text + '" ' +
-          'title="' + response.events[0].name.text + '" ' +
+          '<a target="_blank" href="' + nextWorkshop.url + '?' + affiliateTag + '">' +
+          '<img src="' + nextWorkshop.logo.original.url + '" ' +
+          'alt="' + nextWorkshop.name.text + '" ' +
+          'title="' + nextWorkshop.name.text + '" ' +
           'class="img-fluid">' +
           '</a>' +
         '</p>' +
-        '<h4 class="mt-0">' + response.events[0].name.html + ' ' +
-        '<small>' + moment(response.events[0].start.local).format('dddd, MMMM Do YYYY') + ' ' + 
-          moment(response.events[0].start.local).format('h:mmA') + ' - ' + 
-          moment(response.events[0].end.local).format('h:mmA') + '</small></h4>' +
-        '<p>' + response.events[0].description.html + '</p>' + 
-        '<p><a target="_blank" href="' + response.events[0].url + '?aff=Website">Find out more information and get tickets</a></p>'
+        '<h4 class="mt-0">' + nextWorkshop.name.html + ' ' +
+        '<small>' + moment(nextWorkshop.start.local).format('dddd, MMMM Do YYYY') + ' ' + 
+          moment(nextWorkshop.start.local).format('h:mmA') + ' - ' + 
+          moment(nextWorkshop.end.local).format('h:mmA') + '</small></h4>' +
+        '<p>' + nextWorkshop.description.html + '</p>' + 
+        '<p><a target="_blank" href="' + nextWorkshop.url + '?' + affiliateTag + '">Find out more information and get tickets</a></p>'
       );
+
+      // Now display all the upcoming workshops in the table
       var tbody = $('#workshops tbody');
       for(var event in response.events) {
-        var startDate = moment(response.events[event].start.local);
-        var endDate = moment(response.events[event].end.local);
+        var workshop = response.events[event];
+        var startDate = moment(workshop.start.local);
+        var endDate = moment(workshop.end.local);
         tbody.append(
           '<tr>' +
             '<td>' + 
@@ -32,9 +46,9 @@ $(function() {
             '</td>' +
             '<td>' + 
               '<dl>' +
-                '<dt>' + response.events[event].name.text + '</dt>' +
+                '<dt>' + workshop.name.text + '</dt>' +
                 '<dd>' +
-                  '<a href="' + response.events[event].url + '?aff=Website" target="_blank">Get tickets</a>' +
+                  '<a href="' + workshop.url + '?' + affiliateTag + '" target="_blank">Get tickets</a>' +
                 '</dd>' +
               '</dl>' +
             '</td>' +
@@ -42,6 +56,7 @@ $(function() {
         );
       }
     } else {
+      // If no events then show a nice message
       nextWorkshopDetail.append(
         '<p>Check back later.</p>'
       );
