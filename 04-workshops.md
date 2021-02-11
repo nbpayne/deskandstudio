@@ -27,7 +27,7 @@ Topics covered will be announced in advance of each workshop, and will includes 
 
 ---
 
-![Portrait and Beauty Photography Masterclass with Felix Rachor](/images/workshops/felix-rachor-masterclass.jpg){: .img-fluid }
+<div id="next-workshop-detail"></div>
 
 ### Upcoming photography workshops
 
@@ -43,4 +43,4 @@ Topics covered will be announced in advance of each workshop, and will includes 
   <tbody></tbody>
 </table>
 
-Visit [Desk and Studio](https://www.eventbrite.com.au/o/desk-and-studio-17651945687){: target="_blank" } on Eventbrite and follow us
+Visit [Desk and Studio](https://www.eventbrite.com.au/o/desk-and-studio-17651945687){: target="_blank" } on Eventbrite and follow us.
