@@ -1,16 +1,17 @@
 ---
 title: Video studio hire
-permalink: "/video-studio/"
+permalink: /video-studio/
 nav: Video Studio
-description: Large video studio perfect for music videos, green screen, and interviews.
+description: 'Large video studio perfect for music videos, green screen, and interviews.'
 heading: Film your story in our studio and take it to the next level
 subheading: Utilise all the facilities of our video studio
 image:
-  path: "/images/heros/video-studio-md.jpg"
+  path: /images/heros/video-studio-md.jpg
   width: 1600
   height: 600
 sitemap: true
 layout: default
+published: true
 ---
 
 Make your production stand out by shooting it in our video studio using choosing from a variety of backdrops and backgrounds, whilst making use of all our lighting equipment.
@@ -83,9 +84,9 @@ Equipment includes, but is not limited to:
 - Infinity backdrops -- white, black, grey, chroma key green and various coloured options
 - Painted backdrops -- black, and gold
 - White painted brick walls
-- 2 x Godox SL150II high power continuoues LED Light with bowens mount to suit all our light shapers
-- 1 x Godox SL150W high power continuous LED light with bowens mount to suit all our light shapers
+- 2 x Godox SL200II high power continuoues LED Light with bowens mount to suit all our light shapers
 - 1 x Godox SL200W high power continuous LED light with bowens mount to suit all our light shapers
+- 1 x Godox SL150W high power continuous LED light with bowens mount to suit all our light shapers
 - 2 x continuous lighting 600 bi-colour LED panels
 - 2 x DS60/2.5T 2ft Kino style tungsten balanced continuous LED light
 - 1 x edge lit continous LED light
