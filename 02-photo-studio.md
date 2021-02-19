@@ -1,17 +1,19 @@
 ---
 title: Photography studio hire
-permalink: "/photo-studio/"
+permalink: /photo-studio/
 layout: default
 nav: Photo Studio
-description: Flexible photography studio optimised for both natural light, and studio
+description: >-
+  Flexible photography studio optimised for both natural light, and studio
   lights. All backdrops and ligthing is included in the hire price.
 heading: Looking for a Sydney photography studio or want to rent a studio in Sydney?
 subheading: Flexible photo studio hire in Sydney’s inner west
 image:
-  path: "/images/heros/photo-studio-md.jpg"
+  path: /images/heros/photo-studio-md.jpg
   width: 1600
   height: 600
-redirect_from: "/studio/"
+redirect_from: /studio/
+published: true
 ---
 
 [![Studio B Package -- $295 Full Day Hire. Use the promo code StudioBPackage.](/images/photo-studio/studio-b-special-jan-21.jpg){: .float-right .img-fluid .ml-5 .mb-5 }](https://deskandstudio.simplybook.me/v2/#book){: target="_blank"}
@@ -65,9 +67,9 @@ The studio has a number of equipment options available, including:
 - False floors -- white washed wooden packing crates for an elevated surface
 - Sandbags
 - Extension cables
-- 2 x Godox SL150II high power continuoues LED Light with bowens mount to suit all our light shapers
-- 1 x Godox SL150W high power continuous LED light with bowens mount to suit all our light shapers
+- 4 x Godox SL200II high power continuoues LED Light with bowens mount to suit all our light shapers
 - 1 x Godox SL200W high power continuous LED light with bowens mount to suit all our light shapers
+- 1 x Godox SL150W high power continuous LED light with bowens mount to suit all our light shapers
 - 2 x continuous lighting 600 bi-colour LED panels
 - 2 x DS60/2.5T 2ft Kino style tungsten balanced continuous LED light
 - 1 x edge lit continous LED light
