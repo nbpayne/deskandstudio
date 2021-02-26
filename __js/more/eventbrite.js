@@ -28,7 +28,7 @@ $(function() {
         '<small>' + moment(nextWorkshop.start.local).format('dddd, MMMM Do YYYY') + ' ' + 
           moment(nextWorkshop.start.local).format('h:mmA') + ' - ' + 
           moment(nextWorkshop.end.local).format('h:mmA') + '</small></h4>' +
-        '<p>' + nextWorkshop.description.html + '</p>' + 
+        '<p>' + nextWorkshop.summary + '</p>' + 
         '<p><a target="_blank" href="' + nextWorkshop.url + '?' + affiliateTag + '">Find out more information and get tickets</a></p>'
       );
 
