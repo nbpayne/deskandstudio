@@ -2,6 +2,7 @@ console.log('Hello Petersham.');
 
 var myLazyLoad = new LazyLoad();
 
+/*
 $(document).ready(function() {
   if (window.location.pathname === '/' && sessionStorage.modalShown != 1) {
     sessionStorage.modalShown = 1;
@@ -10,3 +11,4 @@ $(document).ready(function() {
     }, 1000);
   }
 });
+*/
