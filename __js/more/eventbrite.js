@@ -9,7 +9,7 @@ $(function() {
     var nextWorkshopDetail = $('#next-workshop-detail');
 
     // Check we actually got a response
-    if (response.events) {
+    if (response.events.length) {
       // We did! Let's show the details of the very next workshop
       var nextWorkshop = response.events[0]; // The next workshop
       var affiliateTag = 'aff=Website'; // Track affiliate link on Eventbrite

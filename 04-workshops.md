@@ -17,7 +17,7 @@ scripts:
 Each month we'll explore an area of photography to help you improve, and become a great photographer. Workshops are conducted by professional photographers including the owner of Desk and Studio – Lyn Taylor.
 {: .lead }
 
-Numbers are limited to 5 people at a time to allow for heaps of hands on experience, and one-on-one feedback from the facilitator.
+Numbers are limited to allow for heaps of hands on experience, and one-on-one feedback from the facilitator.
 
 Topics covered will be announced in advance of each workshop, and will includes areas such as: natural lighting, studio lighting, retouching in photoshop, flash photography, etc,. We always want to hear new ideas on topics to cover so please suggest anything that interests you.
 
