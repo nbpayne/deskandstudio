@@ -1,10 +1,18 @@
 
-<form class="col-md-8 mx-md-auto" id="needs-validation" method="POST" action="https://formspree.io/{{ site.email }}" novalidate>
-  <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/thanks/" />
-  <input type="hidden" name="_subject" value="New submission via {{ site.url}}{{ site.baseurl }}/contact/" />
+<form class="col-md-8 mx-md-auto" id="needs-validation" method="POST" action="https://submit-form.com/{% if jekyll.environment == "production" and site.github.repository_name == 'deskandstudio' %}{{ site.formid.production }}{% else %}{{ site.formid.development }}{% endif %}" novalidate>
+  <input
+    type="hidden"
+    name="_redirect"
+    value="{{ site.url }}{{ site.baseurl }}/thanks/"
+  >
+  <input type="hidden" name="_append" value="false">
+  <input type="hidden" name="_email.subject" value="New submission via {{ site.url}}{{ site.baseurl }}/contact/">
+  <input type="text" id="firstname" name="firstname" class="d-none">
+  <input type="text" id="lastname" name="lastname" class="d-none">
+  <input type="text" id="mailing_list_opt_in" name="mailing_list_opt_in" class="d-none">
   <div class="form-group">
-    <label for="name">My name is:</label>
-    <input type="text" class="form-control" id="name" name="name" placeholder="Full name" required>
+    <label for="full_name">My name is:</label>
+    <input type="text" class="form-control" id="full_name" name="full_name" placeholder="Full name" required>
     <div class="invalid-feedback">
       How will we know what to call you?
     </div>
@@ -18,8 +26,12 @@
       </div>
     </div>
     <div class="form-group col-md-6">
-      <input type="tel" class="form-control" id="tel" name="tel" placeholder="Phone number">
+      <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number">
     </div>
+  </div>
+  <div class="form-group">
+    <label for="instagram">Let us know your Instagram handle so we can follow you:</label>
+    <input type="text" class="form-control" id="instagram" name="instagram" placeholder="@deskandstudio">
   </div>
 
   <fieldset class="form-group">
@@ -46,13 +58,6 @@
         <label class="custom-control-label" for="aDesk">a desk</label>
       </div>
 
-      {% comment %}
-      <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" name="aMeetingRoom" id="aMeetingRoom">
-        <label class="custom-control-label" for="aMeetingRoom">a meeting room</label>
-      </div>
-      {% endcomment %}
-
       <div class="custom-control custom-checkbox">
         <input type="checkbox" class="custom-control-input" name="anEventSpace" id="anEventSpace">
         <label class="custom-control-label" for="anEventSpace">an event space</label>
@@ -70,10 +75,18 @@
     <textarea class="form-control" id="explanation" name="explanation" rows="3"></textarea>
   </div>
 
-
   <div class="form-group">
     <label for="favouriteSucculent">My second favorite place to visit on the weekend is&hellip;</label>
     <textarea class="form-control" id="favouritePlaceToVisit" name="favouritePlaceToVisit" rows="3"></textarea>
+  </div>
+
+  <div class="form-group">
+    <div class="custom-control custom-checkbox">
+      <input class="custom-control-input" type="checkbox" id="mailing_list" name="mailing_list">
+      <label class="custom-control-label" for="mailing_list">
+        Pop me on your mailing list so I can keep up to date with news and deals
+      </label>
+    </div>
   </div>
 
   <div class="text-center">
@@ -93,10 +106,25 @@
         event.stopPropagation();
         form.classList.add("was-validated");
       } else {
-        form[1].value += ' from ' + form[2].value + ' on ' + moment().format();
         // event.preventDefault();
         // event.stopPropagation();
       }
+    }, false);
+    form["full_name"].addEventListener("blur", function(){
+      // Split name
+      var name = form["full_name"].value.split(" ");
+      form["lastname"].value = name.pop();
+      form["firstname"].value = name.join(" ");
+      console.log(form["firstname"].value);
+      console.log(form["lastname"].value);
+    }, false);
+    form["mailing_list"].addEventListener("click", function() {
+      if(form["mailing_list"].checked) {
+        form["mailing_list_opt_in"].value = "Yes";
+      } else {
+        form["mailing_list_opt_in"].value = "No";
+      }
+      console.log(form["mailing_list_opt_in"].value);
     }, false);
   }, false);
 }());
