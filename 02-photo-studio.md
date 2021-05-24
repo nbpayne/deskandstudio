@@ -49,10 +49,10 @@ The studio is painted white with two large arch windows, allowing for beautiful 
 
 The studio has a number of equipment options available, including:
 
-* 2 X Godox 1200IIM 1200w studio flash heads
-* 3 X Godox 600IIM 600W studio flash head
-* 2 X standard softboxes
-* 2 X strip softboxes
+* 2 x Godox 1200IIM 1200w studio flash heads
+* 3 x Godox 600IIM 600W studio flash head
+* 2 x standard softboxes
+* 2 x strip softboxes
 * 140cm octagon softbox
 * 70cm beauty dish with honeycomb grid
 * 55cm beauty dish with honeycomb grid
