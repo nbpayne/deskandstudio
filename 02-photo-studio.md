@@ -70,11 +70,7 @@ The studio has a number of equipment options available, including:
 * 2 x DS60/2.5T 2ft Kino style tungsten balanced continuous LED light
 * 1 x edge lit continuous LED light
 
-We are continually growing our equipment list, please call the studio manager if you have any additional requirements. &lt;\!– \#\#\# Floor plan
-
----
-
-`add image of floor plan with following inclusions Ceiling height: 3.7m Multiple shooting surface options False flooring options Configure the space to your needs ` –&gt;
+We are continually growing our equipment list, please call the studio manager if you have any additional requirements. 
 
 ### How to book studio time
 
