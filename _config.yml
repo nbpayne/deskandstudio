@@ -36,11 +36,13 @@ formid:
   development: mQvmFOOt
   production: Xb0RIOlD
 defaults:
-- scope:
+- 
+  scope:
     path: "01-index.md"
   values:
     layout: "home"
-- scope:
+- 
+  scope:
     path: ""
   values:
     layout: "default"
