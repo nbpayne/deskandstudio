@@ -28,14 +28,15 @@ exclude:
 formid:
   development: mQvmFOOt
   production: Xb0RIOlD
+
 defaults:
-  - 
-    scope:
-      path: "01-index.md"
-      values:
-        layout: "home"
-  - 
+  -
     scope:
       path: ""
-      values:
-        layout: "default"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "home"
