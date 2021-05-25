@@ -39,10 +39,10 @@ defaults:
 - 
   scope:
     path: "01-index.md"
-  values:
-    layout: "home"
+    values:
+      layout: "home"
 - 
   scope:
     path: ""
-  values:
-    layout: "default"
+    values:
+      layout: "default"
