@@ -1,13 +1,6 @@
 ---
 title: Desk & Studio
 timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: www@deskandstudio.com
 description: Boutique photo studio with options of natural or studio lighting. Studio
   hire starting from $215 plus co-working/meeting/event facilities. Phone (0438) 698
@@ -36,13 +29,13 @@ formid:
   development: mQvmFOOt
   production: Xb0RIOlD
 defaults:
-- 
-  scope:
-    path: "01-index.md"
-    values:
-      layout: "home"
-- 
-  scope:
-    path: ""
-    values:
-      layout: "default"
+  - 
+    scope:
+      path: "01-index.md"
+      values:
+        layout: "home"
+  - 
+    scope:
+      path: ""
+      values:
+        layout: "default"
