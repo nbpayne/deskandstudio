@@ -21,8 +21,6 @@ Numbers are limited to allow for heaps of hands on experience, and one-on-one fe
 
 Topics covered will be announced in advance of each workshop, and will includes areas such as: natural lighting, studio lighting, retouching in photoshop, flash photography, etc,. We always want to hear new ideas on topics to cover so please suggest anything that interests you.
 
-{{ date }}
-
 ### Next workshop
 
 ---
