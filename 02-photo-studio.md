@@ -1,7 +1,7 @@
 ---
 title: Photography studio hire
 permalink: /photo-studio/
-layout: default
+layout: page
 nav: Photo Studio
 description: >-
   Flexible photography studio optimised for both natural light, and studio

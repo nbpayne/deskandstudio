@@ -1,7 +1,7 @@
 ---
 title: Terms and Conditions
 permalink: "/terms/"
-layout: default
+layout: page
 nav: Terms and Conditions
 description: Website Terms and Conditions.
 heading: Website Terms and Conditions

@@ -8,11 +8,7 @@
     {% include nav.html %}
     {% include jumbotron.html heading=page.heading subheading=page.subheading %}
     <div class="container">
-      <main class="row">
-        <div class="col">
-{{ content }}
-        </div>
-      </main>
+      {{ content }}
     </div>
     <footer>
       {% include footer.html %}

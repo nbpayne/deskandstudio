@@ -2,7 +2,7 @@
 title: Meeting room for hire
 permalink: "/meetings/"
 published: false
-layout: default
+layout: page
 nav: Meetings
 description: Perfect for freelancers, creatives and small business owners hosting
   meetings, presentations or interviews off site. Call (0438) 698 924.

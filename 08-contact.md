@@ -1,7 +1,7 @@
 ---
 title: Desk & Studio is available for hire, get in touch today!
 permalink: "/contact/"
-layout: default
+layout: page
 nav: Contact
 description: Find out how to contact Desk & Studio. Questions? Call Lyn Taylor on
   (0438) 698 924.

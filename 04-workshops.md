@@ -1,7 +1,7 @@
 ---
 title: Photography and cinematography workshops
 permalink: "/workshops/"
-layout: default
+layout: page
 nav: Workshops
 description: Photography workshops and private lessons available in Petersham, Sydney.
 heading: Want to start shooting for yourself or want to take it up a notch?

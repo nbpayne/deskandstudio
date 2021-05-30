@@ -10,7 +10,7 @@ image:
   width: 1600
   height: 600
 sitemap: true
-layout: default
+layout: page
 published: true
 ---
 

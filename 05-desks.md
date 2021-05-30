@@ -1,7 +1,7 @@
 ---
 title: Shared desk space available in Sydney’s inner west
 permalink: "/desks/"
-layout: default
+layout: page
 nav: Desks
 description: Hot desks and permanent desks with shared studio and meeting facilities
   suitable for creatives, small business owners and freelancers. Phone (0438) 698

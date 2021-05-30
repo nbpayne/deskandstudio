@@ -1,7 +1,7 @@
 ---
 title: Sitemap
 permalink: "/sitemap/"
-layout: default
+layout: page
 description: Sitemap for www.deskandstudio.com. Find what you're looking for.
 heading: Sitemap
 subheading: Find what you're looking for&hellip;
