@@ -6,15 +6,15 @@ description: Boutique photo studio with options of natural or studio lighting. S
   hire starting from $215 plus co-working/meeting/event facilities. Phone (0438) 698
   924.
 repository: nbpayne/deskandstudio
-baseurl: 
+baseurl: ""
 url: https://www.deskandstudio.com
 twitter:
   username: deskandstudio
 markdown: kramdown
 plugins:
+- jekyll-redirect-from
 - jekyll-seo-tag
 - jekyll-sitemap
-- jekyll-redirect-from
 exclude:
 - bower_components
 - bower.json
