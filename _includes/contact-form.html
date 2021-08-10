@@ -1,4 +1,4 @@
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <form class="col-md-8 mx-md-auto" id="needs-validation" method="POST" action="https://submit-form.com/{% if jekyll.environment == "production" and site.github.repository_name == 'deskandstudio' %}{{ site.formid.production }}{% else %}{{ site.formid.development }}{% endif %}" novalidate>
   <input
     type="hidden"
@@ -89,13 +89,23 @@
     </div>
   </div>
 
+  <div class="form-group">
+    <div class="g-recaptcha" style="width: 304px;margin-left: auto;margin-right: auto;" data-sitekey="6LeiqOwbAAAAAIw0A0Z1QSGAQdCfi6LVy9F-MxAu" data-callback="recaptchaTick"></div>
+  </div>
+
   <div class="text-center">
-    <button type="submit" class="btn btn-primary">Tell me more about Desk &amp; Studio</button>
+    <button id="submitBtn" type="submit" class="btn btn-primary" disabled>Tell me more about Desk &amp; Studio</button>
   </div>
 </form>
 
 <script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
+// Recaptcha ticked
+function recaptchaTick(response) {
+  $("#submitBtn").removeAttr("disabled");
+  // console.log(response);
+}
+
+// Form validation
 (function() {
   "use strict";
   window.addEventListener("load", function() {
