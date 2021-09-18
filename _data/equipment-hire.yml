@@ -1,0 +1,16 @@
+- name: One Light Hire Package
+  price: 110
+  includes:
+    - 1 x Godox QT600ii
+    - 1 x Power lead
+    - 1 x 60cm x 90cm rectangle softbox
+    - 1 x Manfrotto 1004BAC Light Stand
+    - 1 x Godox XPRO TTL Wireless Flash trigger
+- name: Small Paper Roll & Backdrop Stand Hire
+  price: 80
+  includes:
+    - 1.35m paper roll
+    - Light duty stands (1052BAC) X 2
+    - Telescopic cross pole (272B) X 1
+    - Spring clamps (275) x 2
+    - Carry Bag
