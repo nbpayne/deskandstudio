@@ -1,0 +1,28 @@
+---
+layout: default
+---
+      <main class="row">
+        <div class="col">
+          {{ content }}
+          {% assign this = page.title | replace: ' ','-' | downcase %}
+
+          {% for package in site.data[this] %}
+          {% cycle '<div class="card-deck">','' %}
+            <div class="card text-center">
+              <img src="/images/equipment-hire/{{ package.name | replace: ' ', '-' | downcase }}.jpg" class="card-img-top" alt="{{ package.name }} contents">
+              <div class="card-body">
+                <h4 class="card-title">{{ package.name }}</h4>
+                <p class="card-text display-3">${{ package.price }}*</p>
+                <ul class="card-text list-unstyled">
+                  <li>{{ package.includes | join: '</li><li>' }}</li>
+                  <li>24 hour hire</li>
+                  <li>*inc. GST</li>
+                </ul>
+                <a class="btn btn-primary" href="{{ site.baseurl }}/contact/">Contact us</a>
+              </div>
+            </div>
+            <div class="column-break">&nbsp;</div>
+          {% cycle '','</div>' %}
+          {% endfor %}
+        </div>
+      </main>
