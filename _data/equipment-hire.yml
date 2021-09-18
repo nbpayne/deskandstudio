@@ -14,3 +14,29 @@
     - Telescopic cross pole (272B) X 1
     - Spring clamps (275) x 2
     - Carry Bag
+- name: Home Studio Hire Package
+  price: '190'
+  includes:
+    - Everything in the One Light Hire Package plus...
+    - Everything in the Small Paper Roll & Backdrop Hire Package
+- name: Two Light Hire Package
+  price: '220'
+  includes:
+    - Godox QT600ii X 2 OR Godox
+    - ' Power lead x 2'
+    - 60cm x 90cm rectangle softbox x 2
+    - Manfrotto 1004BAC Light Stand x 2
+    - Godox XPRO TTL Wireless Flash trigger (if hiring flash)
+- name: Large Paper Roll & Backdrop Stand Hire
+  price: '110'
+  includes:
+    - 2.73m wide paper roll
+    - Heavy Duty Light stands (1052BAC) X 2
+    - Telescopic cross pole (272B) X 1
+    - Spring clamps (275) x 2
+    - Carry Bag
+- name: Large Backdrop & Lights Hire Package
+  price: '310'
+  includes:
+    - Everything in the Two Light Hire Package plus...
+    - Everything in the Large Paper Roll & Backdrop Stand Hire
