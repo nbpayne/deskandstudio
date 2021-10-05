@@ -7,7 +7,7 @@ layout: default
           {% assign this = page.title | replace: ' ','-' | downcase %}
 
           {% for package in site.data[this] %}
-          {% cycle '<div class="card-deck">','' %}
+          {% cycle '<div class="card-deck">','','' %}
             <div class="card text-center">
               <img src="/images/equipment-hire/{{ package.name | replace: ' ', '-' | downcase }}.jpg" class="card-img-top" alt="{{ package.name }} contents">
               <div class="card-body">
@@ -22,7 +22,7 @@ layout: default
               </div>
             </div>
             <div class="column-break">&nbsp;</div>
-          {% cycle '','</div>' %}
+          {% cycle '','','</div>' %}
           {% endfor %}
         </div>
       </main>
