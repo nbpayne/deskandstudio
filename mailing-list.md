@@ -2,7 +2,7 @@
 title: Keep up with our latest news and specials!
 permalink: "/mailing-list/"
 layout: page
-nav: Contact
+nav: Mailing List
 description: Join our mailing list to keep up with our latest news and access specials
   deals.
 heading: Join our mailing list
