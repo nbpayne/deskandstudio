@@ -1,42 +1,60 @@
 - name: One Light Hire Package
   price: 110
   includes:
-    - 1 x Godox QT600ii flash OR Godox SL200ii continuous
+    - 1 x Godox QT600ii flash head OR Godox SL200ii continuous light
     - 1 x Power lead
     - 1 x 60cm x 90cm rectangle softbox
     - 1 x Manfrotto 1004BAC Light Stand
-    - 1 x Godox XPRO TTL Wireless Flash trigger
+    - 1 x Godox XPRO TTL Wireless Flash trigger (if hiring flash heads)
+- name: Two Light Hire Package
+  price: 220
+  includes:
+    - 2 x Godox QT600ii flash heads OR Godox SL200ii continuous lights
+    - 2 x Power leads
+    - 2 x 60cm x 90cm rectangle softboxes
+    - 2 x Manfrotto 1004BAC Light Stands
+    - Godox XPRO TTL Wireless Flash trigger (if hiring flash heads)
 - name: Small Paper Roll & Backdrop Stand Hire
   price: 88
   includes:
     - 1.35m paper roll
-    - 2 x Light duty stands (1052BAC)
-    - Telescopic cross pole (272B)
-    - 2 x Spring clamps (275)
+    - Manfrotto 1314B Studio Background Support System
+    - 2 x Spring clamps
     - Carry Bag
+- name: Large Paper Roll & Backdrop Stand Hire
+  price: 110
+  includes:
+    - 2.73m wide paper roll
+    - Manfrotto 1314B Studio Background Support System
+    - 2 x Spring clamps
+    - Stand Carry Bag
 - name: Home Studio Hire Package
   price: 190
   includes:
     - Everything in the One Light Hire Package plus...
     - Everything in the Small Paper Roll & Backdrop Hire Package
-- name: Two Light Hire Package
-  price: 220
-  includes:
-    - 2 x Godox QT600ii flash OR Godox SL200ii continuous
-    - Power lead x 2
-    - 2 x 60cm x 90cm rectangle softboxes
-    - 2 x Manfrotto 1004BAC Light Stand
-    - Godox XPRO TTL Wireless Flash trigger (if hiring flash)
-- name: Large Paper Roll & Backdrop Stand Hire
-  price: 110
-  includes:
-    - 2.73m wide paper roll
-    - 2 x Compact Backdrop Stands (1052BAC)
-    - Telescopic cross pole (272B)
-    - 2 x Spring clamps (275)
-    - Carry Bag
 - name: Large Backdrop & Lights Hire Package
-  price: 330
+  price: 250
   includes:
     - Everything in the Two Light Hire Package plus...
     - Everything in the Large Paper Roll & Backdrop Stand Hire
+- name: Small Canvas Backdrop Package
+  price: 180
+  includes:
+    - Available in textured cream (Lara) or textured black (Sue)
+    - 1.6m x 2m hand painted canvas backdrop
+    - Manfrotto 1314B Studio Background Support System
+    - 2 x Spring clamps
+    - Stand Carry Bag
+- name: Large Canvas Backdrop Package
+  price: 225
+  includes:
+    - 2.14m x 3m Rose Gold or Textured Black
+    - 2 x C-stands
+    - 2 x Spring clamps
+- name: Extra Large Canvas Backdrop Package
+  price: 280
+  includes:
+    - 3m x 3m textured cream (Lara)
+    - 2 x C-stands
+    - 2 x Spring clamps

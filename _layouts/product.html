@@ -12,11 +12,11 @@ layout: default
               <img src="/images/equipment-hire/{{ package.name | replace: ' ', '-' | downcase }}.jpg" class="card-img-top" alt="{{ package.name }} contents">
               <div class="card-body">
                 <h4 class="card-title">{{ package.name }}</h4>
-                <p class="card-text display-3">${{ package.price }}*</p>
+                {% if package.price %}<p class="card-text display-3">${{ package.price }}*</p>{% endif %}
                 <ul class="card-text list-unstyled">
                   <li>{{ package.includes | join: '</li><li>' }}</li>
-                  <li>24 hour hire</li>
-                  <li>*inc. GST</li>
+                  <li>1 day hire</li>
+                  <li><em>*inc. GST</em></li>
                 </ul>
                 <a class="btn btn-primary" href="{{ site.baseurl }}/contact/">Contact us</a>
               </div>
