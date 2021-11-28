@@ -12,6 +12,7 @@ image:
   path: "/images/heros/contact-md.jpg"
   width: 1600
   height: 600
+sitemap: true
 ---
 
 ### Join our mailing list
