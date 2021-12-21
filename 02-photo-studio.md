@@ -6,17 +6,17 @@ nav: Photo Studio
 description: >-
   Flexible photography studio optimised for both natural light, and studio
   lights. All backdrops and ligthing is included in the hire price.
-heading: Photo studio hire in Sydney’s inner west
-subheading:
+heading: Looking for a Sydney photography studio or want to rent a studio in Sydney?
+subheading: Flexible photo studio hire in Sydney’s inner west
 image:
-  path: /uploads/studiophotos-129.jpg
+  path: /images/heros/photo-studio-md.jpg
   width: 1600
   height: 600
 redirect_from: /studio/
 published: true
 ---
 
-Our large light-filled photo studio is designed to be used as a natural light photography studio, but can be easily transformed for flash and continuous lighting.
+Our large light-filled photo studio has been designed to be used as a natural light photography studio, but can be easily transformed for flash and continuous lighting.
 {: .lead}
 
 We offer a wide range of options for backdrops, lighting and textures for the space on-site. You can also BYO backdrops if you have specialist requirements.
@@ -29,7 +29,7 @@ The studio can be hired for a full day, or just half a day, and with the option 
 
 ---
 
-Versatile boutique studio space featuring natural light and loads of character. The studio is located in a warehouse space with exposed roof areas that gives it an industrial feel.
+Small, but versatile featuring natural light and loads of character. The studio is located in a warehouse space with exposed roof areas that gives the space an industrial feel.
 
 The studio is painted white with two large arch windows, allowing for beautiful natural light all day long. Alternatively the blockout blinds can be lowered to allow for creative lighting approaches.
 
@@ -69,7 +69,7 @@ The studio has a number of equipment options available, including:
 * 2 x DS60/2.5T 2ft Kino style tungsten balanced continuous LED light
 * 1 x edge lit continuous LED light
 
-We are continually growing our equipment list, please call the studio manager if you have any additional requirements.
+We are continually growing our equipment list, please call the studio manager if you have any additional requirements. 
 
 ### How to book studio time
 

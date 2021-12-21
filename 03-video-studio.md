@@ -2,8 +2,8 @@
 title: Video studio hire
 permalink: /video-studio/
 nav: Video Studio
-description: Large video studio perfect for music videos, green screen, and interviews.
-heading: Film your story in our studio
+description: 'Large video studio perfect for music videos, green screen, and interviews.'
+heading: Film your story in our studio and take it to the next level
 subheading: Utilise all the facilities of our video studio
 image:
   path: /images/heros/video-studio-md.jpg
