@@ -50,19 +50,18 @@ The studio is painted white with two large arch windows, allowing for beautiful 
 The studio has a number of equipment options available, including:
 
 * 2 x Godox 1200IIM 1200w studio flash heads
-* 3 x Godox 600IIM 600W studio flash head
-* 2 x standard softboxes
+* 4 x Godox 600IIM 600W studio flash head
+* 6 x standard softboxes
 * 2 x strip softboxes
 * 140cm octagon softbox
 * 70cm beauty dish with honeycomb grid
 * 55cm beauty dish with honeycomb grid
-* Umbrellas
+* Umbrellas (inc 7ft Westcott umbrella with disfuser)
 * Barn doors, with coloured gels
 * Snoot
 * China ball lantern
-* Red velvet curtains – for a dramatic backdrop
+* Red velvet curtains – for a dramatic backdrop (on request only)
 * Paper roll backdrops – white, black, grey, chroma key green and various other colours
-* False floors – white washed wooden packing crates for an elevated surface
 * Sandbags
 * Extension cables
 * 4 x Godox SL200II high power continuous LED Light with bowens mount to suit all our light shapers
