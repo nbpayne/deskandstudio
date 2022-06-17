@@ -43,6 +43,11 @@ The studio is painted white with two large arch windows, allowing for beautiful 
 * Kitchenette with fridge, kettle, toaster and coffee & tea facilities
 * 15 minutes from Sydney by bus
 
+![Natural light or strobes](/images/photo-studio/photo-studio-01.jpg)
+![The green room including hair and makeup stations](/images/photo-studio/photo-studio-02.jpg)
+![Wide range of paper roll backdrops](/images/photo-studio/photo-studio-03.jpg)
+
+
 ### Equipment
 
 ---
@@ -70,6 +75,10 @@ The studio has a number of equipment options available, including:
 * 1 x edge lit continuous LED light
 
 We are continually growing our equipment list, please call the studio manager if you have any additional requirements. 
+
+![Strobe lighting and modifiers](/images/photo-studio/photo-studio-04.jpg)
+![Clothes racks and steamer](/images/photo-studio/photo-studio-05.jpg)
+![Wide range of bowens mount light modifiers](/images/photo-studio/photo-studio-06.jpg)
 
 ### How to book studio time
 
