@@ -76,6 +76,10 @@ The studio has a number of equipment options available, including:
 
 We are continually growing our equipment list, please call the studio manager if you have any additional requirements. 
 
+![Strobe lighting and modifiers](/images/photo-studio/photo-studio-04.jpg)
+![Clothes racks and steamer](/images/photo-studio/photo-studio-05.jpg)
+![Wide range of bowens mount light modifiers](/images/photo-studio/photo-studio-06.jpg)
+
 ### How to book studio time
 
 ---
