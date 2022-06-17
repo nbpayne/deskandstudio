@@ -43,6 +43,11 @@ The studio is painted white with two large arch windows, allowing for beautiful 
 * Kitchenette with fridge, kettle, toaster and coffee & tea facilities
 * 15 minutes from Sydney by bus
 
+![Natural light or strobes](/images/photo-studio/photo-studio-01.jpg)
+![The green room including hair and makeup stations](/images/photo-studio/photo-studio-02.jpg)
+![Wide range of paper roll backdrops](/images/photo-studio/photo-studio-03.jpg)
+
+
 ### Equipment
 
 ---
