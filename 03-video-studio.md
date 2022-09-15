@@ -97,39 +97,14 @@ We are continually growing our equipment list, please call the studio manager if
 
 Check availability and book online now.
 
-<div class="card-deck">
-            <div class="card text-center">
-              <div class="card-body">
-                <h4 class="card-title">Studio for a half day</h4>
-                <p class="card-text display-3">$235*</p>
-                <ul class="card-text list-unstyled">
-                  <li>2.72m wide backdrops in a wide variety of colours</li>
-                  <li>5.7m wide and 9m deep with 4.6m high ceilings</li>
-                  <li>*Includes GST</li>
-                </ul><a class="btn btn-primary" target="_blank" href="https://deskandstudio.simplybook.me/v2/#book">Book now</a>
-              </div>
-            </div>
-            <div class="column-break">&nbsp;</div>
-            <div class="card text-center">
-              <div class="card-body">
-                <h4 class="card-title">Studio for a full day</h4>
-                <p class="card-text display-3">$395*</p>
-                <ul class="card-text list-unstyled">
-                  <li>2.72m wide backdrops in a wide variety of colours</li>
-                  <li>5.7m wide and 9m deep with 4.6m high ceilings</li>
-                  <li>*Includes GST</li>
-                </ul><a class="btn btn-primary" target="_blank" href="https://deskandstudio.simplybook.me/v2/#book">Book now</a>
-              </div>
-            </div>
-          </div>
+{% include plans.html %}
 
-<dl>
-            <dt>Cancellation policy</dt>
-            <dd>We understand&hellip; sometimes s#!t happens! A full refund applies if you give us 72 hours notice; less than 72 hours will receive a 50% refund.</dd>
-            <dd>Similarly, moving your shoot date is free given more than 72 hours notice. Otherwise, a $25 admin fee will apply.</dd>
-            <dt>Concessions</dt>
-            <dd>Concession rates are available for student shoots &ndash; <a href="/contact/">get in touch with your details</a>.</dd>
-          </dl>
+Cancellation policy
+: We understand... sometimes s#!t happens! A full refund applies if you give us 72 hours notice; less than 72 hours will receive a 50% refund.
+: Similarly, moving your shoot date is free given more than 72 hours notice. Otherwise, a $25 admin fee will apply.
+
+Concessions
+: Concession rates are available for student shoots -- [get in touch with your details](/contact/).
 
 #### Ready to book your next video shoot?
 
