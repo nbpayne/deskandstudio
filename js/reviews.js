@@ -1,0 +1,2 @@
+$(function(){simplybookmeReviewsUrl="/data/reviews.json",$.getJSON(simplybookmeReviewsUrl,function(s){var e=$("#reviews");if(s.models.length)for(var a in s.models){a=s.models[a];e.append('<div class="card p-3">  <div class="card-body">    <h5 class="card-title"><img src="/images/stars/'+a.rate+'.svg" class="stars"> '+a.subject+'</h5>    <p class="card-text">'+a.message+'</p>    <p class="card-text"><small class="text-muted">'+moment(a.feedback_datetime).fromNow()+"</small></p>  </div></div>")}else e.after("<p>Nothing</p>")})});
+//# sourceMappingURL=reviews.js.map
