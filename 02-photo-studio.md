@@ -13,6 +13,8 @@ image:
   width: 1600
   height: 600
 redirect_from: /studio/
+scripts:
+- reviews
 published: true
 ---
 
@@ -95,17 +97,23 @@ Cancellation policy
 Concessions
 : Concession rates are available for student shoots -- [get in touch with your details](/contact/).
 
-### Secure lockers for co-working Deskies
-
----
-
-We have secure lockers for your equipment if you are a [Deskie](/desks/). If you’re a budding photographer looking to join a co-working space for creatives, Desk & Studio has great plans to suit every option.
-
 ### Location
 
 ---
 
 The studio is a short walk from bus stops along Parramatta Road at Petersham. We’re super accessible by bus or car. Street parking is available however it’s mostly 2 hour and some non-restricted in the side streets.
+
+### What other people say about us
+
+---
+
+<div id="reviews" class="card-columns"></div>
+
+### Secure lockers for co-working Deskies
+
+---
+
+We have secure lockers for your equipment if you are a [Deskie](/desks/). If you’re a budding photographer looking to join a co-working space for creatives, Desk & Studio has great plans to suit every option.
 
 #### Ready to book your next photo shoot?
 

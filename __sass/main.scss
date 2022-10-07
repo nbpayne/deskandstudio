@@ -23,6 +23,10 @@ hr {
   max-width: 4rem;
 }
 
+dt {
+  font-size: 1rem;
+}
+
 // -- LAYOUTS ---
 // Navigation
 .navbar {
@@ -311,4 +315,10 @@ legend {
 // Modal
 .modal-body > h2 {
   margin-top: 0;
+}
+
+// Star ratings
+img.stars {
+  height: 1rem;
+  vertical-align: baseline;
 }
