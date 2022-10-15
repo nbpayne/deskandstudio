@@ -109,6 +109,8 @@ The studio is a short walk from bus stops along Parramatta Road at Petersham. We
 
 <div id="reviews" class="card-columns"></div>
 
+[Read more reviews or leave a review yourself](https://deskandstudio.simplybook.me/v2/#reviews){: target="_blank" }
+
 ### Secure lockers for co-working Deskies
 
 ---
