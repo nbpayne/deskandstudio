@@ -3,11 +3,16 @@ layout: default
 ---
       <main class="row">
         <div class="col">
+
           {{ content }}
-          {% assign this = page.title | replace: ' ','-' | downcase %}
+
+        </div>
+      </main>
+      <article class="row row-cols-1 row-cols-md-3">
+        {% assign this = page.title | replace: ' ','-' | downcase %}
 
           {% for package in site.data[this] %}
-          {% cycle '<div class="card-deck">','','' %}
+          <div class="col mb-4">
             <div class="card text-center">
               <img src="/images/equipment-hire/{{ package.name | replace: ' ', '-' | downcase }}.jpg" class="card-img-top" alt="{{ package.name }} contents">
               <div class="card-body">
@@ -21,8 +26,8 @@ layout: default
                 <a class="btn btn-primary" href="{{ site.baseurl }}/contact/">Contact us</a>
               </div>
             </div>
-            <div class="column-break">&nbsp;</div>
-          {% cycle '','','</div>' %}
+          </div>
           {% endfor %}
         </div>
-      </main>
+      </article>
+          
