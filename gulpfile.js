@@ -6,7 +6,7 @@ var del = require('del');
 var gm = require('gulp-gm');
 var gulpif = require('gulp-if');
 // var imagemin = require('gulp-imagemin');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
 var jshint = require('gulp-jshint');
 var lazypipe = require('lazypipe');
 // var log = require('gutil-color-log');
@@ -71,7 +71,7 @@ gulp.task('jekyll-serve', function () {
   const jekyllLogger = (buffer) => {
     buffer.toString()
       .split(/\n/)
-      .forEach((message) => gutil.log('Jekyll', message));
+      .forEach((message) => log('Jekyll', message));
   };
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
