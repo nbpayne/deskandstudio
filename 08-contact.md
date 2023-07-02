@@ -14,7 +14,7 @@ image:
   height: 600
 redirect_from: /what-else/
 ---
-Desk and Studio founder Lyn had a vision of creating a boutique creative space for photographers, designers and agencies. She wanted to design a studio space optimised for brewing great ideas, creativity and collaboration.
+Lyn, the founder of Desk and Studio, had a vision to establish a boutique creative space for photographers, designers, and agencies. Her goal was to create a studio that was optimized for generating great ideas, promoting creativity, and encouraging collaboration.
 {: .lead}
 
 Lyn found the perfect space to bring her dreams to life. This funky space is located at [460A Parramatta Road, Petersham (enter from Queen Street)](https://goo.gl/maps/c41QcFGe7Gx){: target="_blank"}, in the heart of the creative inner west, minutes from the city via buses along Parramatta Road, and an easy walk to Leichardt village shops.
