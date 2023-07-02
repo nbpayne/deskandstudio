@@ -26,7 +26,7 @@ Hi, Welcome to Desk & Studio!
 We’re based right in the heart of the inner-west at Petersham, across the road from Norton Street in Leichhardt and a short bus trip into Sydney.
 {: .lead}
 
-Stepping into Desk & Studio will make you feel inspired. It’s a studio filled with natural light, with a Green Room space equipped with clothing rack and steamer, makeup desks and steamer.
+Stepping into Desk & Studio will make you feel inspired. This studio is full of natural light and has a green room that includes clothing racks, makeup desks, and a steamer.
 
 Our style is clean, modern and designed to inspire you. Why not check us out?
 
