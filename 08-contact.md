@@ -14,12 +14,10 @@ image:
   height: 600
 redirect_from: /what-else/
 ---
-Lyn Taylor is a photographer, videographer, musician, project manager, and all-round creative type.
+Lyn, the founder of Desk and Studio, had a vision to establish a boutique creative space for photographers, designers, and agencies. Her goal was to create a studio that was optimized for generating great ideas, promoting creativity, and encouraging collaboration.
 {: .lead}
 
-Lyn had a vision of creating a boutique creative space for the photographer, designer, small business owner and anyone looking for a dedicated workspace away from home. She wanted to design a studio space optimised for brewing great ideas, creativity and collaboration.
-
-Lyn found the perfect space to bring her dreams to life. This funky space is located at [460A Parramatta Road, Petersham (enter from Queens Street)](https://goo.gl/maps/c41QcFGe7Gx){: target="_blank"}, in the heart of the creative inner west, minutes from the city via buses along Parramatta Road, and an easy walk to Leichardt village shops.
+Lyn found the perfect space to bring her dreams to life. This funky space is located at [460A Parramatta Road, Petersham (enter from Queen Street)](https://goo.gl/maps/c41QcFGe7Gx){: target="_blank"}, in the heart of the creative inner west, minutes from the city via buses along Parramatta Road, and an easy walk to Leichardt village shops.
 
 Do you want to join the Deskie Crew? Hire the studio? To arrange a tour with Lyn, or go right ahead and book today, be sure to leave your calling card below.
 
@@ -30,6 +28,6 @@ No question is the wrong question ☺
 ### Contact us today for a tour!
 {: .text-center.col-md-6.mx-md-auto}
 
----{: .text-center.col-md-1.mx-auto}
+—
 
 {% include contact-form.html %}
