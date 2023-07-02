@@ -12,7 +12,7 @@ subheading: >-
   A personal touch to studio hire and flexible co-working for creatives,
   solopreneurs and small business owners
 image:
-  path: /images/heros/home-md.jpg
+  path: /uploads/das-home.jpg
   width: 1600
   height: 600
 redirect_from:
@@ -20,7 +20,7 @@ redirect_from:
   - /extras/
   - /plans/
 ---
-Hi, I’m [Lyn Taylor]({{ site.baseurl }}/contact/), welcome to Desk & Studio!
+Hi, Welcome to Desk & Studio!
 {: .lead}
 
 We’re based right in the heart of the inner-west at Petersham, across the road from Norton Street in Leichhardt and a short bus trip into Sydney.
