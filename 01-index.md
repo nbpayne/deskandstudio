@@ -18,7 +18,7 @@ redirect_from:
   - /extras/
   - /plans/
 ---
-Hi, Welcome to Desk & Studio!
+**HI, WELCOME TO DESK & STUDIO!**
 {: .lead}
 
 We’re based right in the heart of the inner-west at Petersham, across the road from Norton Street in Leichhardt and a short bus trip into Sydney.
