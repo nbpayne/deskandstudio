@@ -19,6 +19,10 @@ h2, h3, h4 {
   margin-top: 3rem;
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
 hr {
   border-bottom: 2px solid theme-color('primary');
   border-top: none;
