@@ -8,9 +8,7 @@ description: >-
   starting from $215 plus co-working/meeting/event facilities. Phone (0497) 777
   664 .
 heading: Photo studio hire in Sydney
-subheading: >-
-  A personal touch to studio hire and flexible co-working for creatives,
-  solopreneurs and small business owners
+subheading: A personal touch to studio hire for creatives, designers and agencies.
 image:
   path: /uploads/das-home.jpg
   width: 1600
