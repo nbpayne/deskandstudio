@@ -3,6 +3,11 @@
 @import 'vendor/variables';
 @import 'bower_components/bootstrap/scss/mixins/_breakpoints.scss';
 
+// Defaults
+body {
+  font-size: 1.2rem;
+}
+
 // -- ELEMENTS --
 
 h1 {
@@ -12,6 +17,10 @@ h1 {
 
 h2, h3, h4 {
   margin-top: 3rem;
+}
+
+h4 {
+  text-transform: uppercase;
 }
 
 hr {
@@ -283,6 +292,11 @@ legend {
     left: 4rem;
     right: 4rem;
   }
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .jumbotron h1,
