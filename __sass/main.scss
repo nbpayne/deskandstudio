@@ -3,6 +3,11 @@
 @import 'vendor/variables';
 @import 'bower_components/bootstrap/scss/mixins/_breakpoints.scss';
 
+// Defaults
+body {
+  font-size: 1.2rem;
+}
+
 // -- ELEMENTS --
 
 h1 {
