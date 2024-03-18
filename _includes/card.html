@@ -1,7 +1,9 @@
 <div class="card text-center">
   <picture>
-    <source class="card-img-top" type="image/webp" srcset="{{ site.baseurl }}/images/cards/{{ include.title | slugify }}.webp">
-    <img class="card-img-top" src="{{ site.baseurl }}/images/cards/{{ include.title | slugify }}.png" alt="{{ include.title }}">
+    <a href="{{ site.baseurl }}/{{ include.title | slugify }}/">
+      <source class="card-img-top" type="image/webp" srcset="{{ site.baseurl }}/images/cards/{{ include.title | slugify }}.webp">
+      <img class="card-img-top" src="{{ site.baseurl }}/images/cards/{{ include.title | slugify }}.png" alt="{{ include.title }}">
+    </a>
   </picture>
   <div class="card-body">
     <h4 class="card-title">{{ include.title }}</h4>
