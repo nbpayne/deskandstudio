@@ -18,7 +18,7 @@ $(function() {
           '  <div class="card-body">' +
           '    <h5 class="card-title"><img src="/images/stars/' + review.rate + '.svg" class="stars"> ' + review.subject + '</h5>' +
           '    <p class="card-text">' + review.message + '</p>' +
-          '    <p class="card-text"><small class="text-muted">' + moment(review.feedback_datetime).fromNow() + '</small></p>' +
+          '    <p class="card-text"><small class="text-muted" style="cursor: pointer;" title="' + moment(review.feedback_datetime).format('MMMM Do YYYY') + '">' + moment(review.feedback_datetime).fromNow() + '</small></p>' +
           '  </div>' +
           '</div>'
         );

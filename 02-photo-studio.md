@@ -79,7 +79,12 @@ Check availability and book online now.
 
 {% include plans.html %}
 
-<dl><dt>Cancellation policy</dt><dd>We understand… sometimes s#!t happens! A full refund applies if you give us 72 hours notice; less than 72 hours will receive a 50% refund.</dd><dd>Similarly, moving your shoot date is free given more than 72 hours notice. Otherwise, a $25 admin fee will apply.</dd><dt>Concessions</dt><dd>Concession rates are available for student shoots – <a href="/contact/">get in touch with your details</a>.</dd></dl>
+Cancellation policy
+: We understand... sometimes s#!t happens! A full refund applies if you give us 72 hours notice; less than 72 hours will receive a 50% refund.
+: Similarly, moving your shoot date is free given more than 72 hours notice. Otherwise, a $25 admin fee will apply.
+
+Concessions
+: Concession rates are available for student shoots -- [get in touch with your details](/contact/).
 
 ### Location
 
@@ -91,11 +96,9 @@ The studio is a short walk from bus stops along Parramatta Road at Petersham. We
 
 ---
 
-<div class="card-columns"> </div>
+<div id="reviews" class="card-columns"></div>
 
 [Read more reviews or leave a review yourself](https://deskandstudio.simplybook.me/v2/#reviews){: target="_blank"}
-
-###
 
 #### Ready to book your next photo shoot?
 
