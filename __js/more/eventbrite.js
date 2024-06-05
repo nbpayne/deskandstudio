@@ -58,7 +58,9 @@ $(function() {
     } else {
       // If no events then show a nice message
       nextWorkshopDetail.append(
-        '<p>Check back later.</p>'
+        '<p class="lead">Fill in the form below and we\'ll let you know when our next workshop is scheduled.</p>' +
+        '<p>We\'ll give you advance notice so you can grab a spot before anyone else does. We may even offer a ' +
+        'discount.</p>'
       );
     }
   });
