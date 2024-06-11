@@ -41,4 +41,4 @@ Numbers are limited to allow for heaps of hands on experience, and one-on-one fe
   <tbody></tbody>
 </table>
 
-Visit [Desk and Studio](https://www.eventbrite.com.au/o/desk-and-studio-17651945687){: target="_blank" } on Eventbrite and follow us.
+Visit [Desk and Studio](https://deskandstudio.eventbrite.com.au/){: target="_blank" } on Eventbrite and follow us.
