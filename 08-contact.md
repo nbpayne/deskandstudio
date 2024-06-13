@@ -28,6 +28,7 @@ No question is the wrong question ☺
 ### Contact us today for a tour!
 {: .text-center.col-md-6.mx-md-auto}
 
-—
+---
+{: .text-center.col-md-1.mx-auto}
 
 {% include contact-form.html %}

@@ -4,8 +4,8 @@ permalink: "/workshops/"
 layout: page
 nav: Workshops
 description: Photography workshops and private lessons available in Petersham, Sydney.
-heading: Want to start shooting for yourself or want to take it up a notch?
-subheading: Why not join a photography class at Desk and Studio
+heading: Unlock the next level of your photography career
+subheading: Join one of our immersive Photography Workshops
 image:
   path: "/images/heros/workshops-md.jpg"
   width: 1600
@@ -14,12 +14,12 @@ scripts:
 - eventbrite
 ---
 
-Each month we'll explore an area of photography to help you improve, and become a great photographer. Workshops are conducted by professional photographers including the owner of Desk and Studio – Lyn Taylor.
+Elevate your skills and expand your portfolio with our exclusive workshops tailored for professional photographers. Whether you're a seasoned veteran or just starting your journey, our diverse range of sessions cover everything from introductory skills through to advanced techniques.
 {: .lead }
 
-Numbers are limited to allow for heaps of hands on experience, and one-on-one feedback from the facilitator.
+Designed by professionals, for professionals, our workshops offer a unique opportunity to refine your skills, broaden your creative horizons, and network with fellow industry practitioners. Dive deep into specialized topics, master new techniques, and gain invaluable insights from seasoned mentors. Whether you're aiming to enhance your technical prowess or seeking fresh inspiration, our workshops provide the perfect blend of education and inspiration. Join us on a journey of discovery and elevate your photography to new heights.
 
-Topics covered will be announced in advance of each workshop, and will includes areas such as: natural lighting, studio lighting, retouching in photoshop, flash photography, etc,. We always want to hear new ideas on topics to cover so please suggest anything that interests you.
+Numbers are limited to allow for heaps of hands on experience, and one-on-one feedback from the facilitator.
 
 ### Next workshop
 
@@ -41,4 +41,4 @@ Topics covered will be announced in advance of each workshop, and will includes 
   <tbody></tbody>
 </table>
 
-Visit [Desk and Studio](https://www.eventbrite.com.au/o/desk-and-studio-17651945687){: target="_blank" } on Eventbrite and follow us.
+Visit [Desk and Studio](https://deskandstudio.eventbrite.com.au/){: target="_blank" } on Eventbrite and follow us.
