@@ -42,3 +42,14 @@ Numbers are limited to allow for heaps of hands on experience, and one-on-one fe
 </table>
 
 Visit [Desk and Studio](https://deskandstudio.eventbrite.com.au/){: target="_blank" } on Eventbrite and follow us.
+
+### Don't see what you're after?
+
+---
+
+Fill in the form below and we'll let you know when our next workshop is scheduled.
+{: .lead }
+
+We'll give you advance notice so you can grab a spot before anyone else does. We may even offer a discount.
+
+{% include workshops-form.html %}
