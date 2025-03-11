@@ -1,0 +1,32 @@
+---
+layout: default
+---
+    <div class="container">
+      <main class="row mt-4">
+        <div class="col-md-8">
+          <figure class="figure">
+            <img src="{{ page.image.path }}" class="figure-img img-fluid rounded" alt="{{ page.image.caption }}">
+            <figcaption class="figure-caption">{{ page.image.caption }}</figcaption>
+          </figure>
+          <h1 class="my-0">{{ page.title }}</h1>
+          <p class="mb-4"><small class="text-muted">{{ page.date | date: "%B %e, %Y" }}</small></p>
+          {{ content }}
+
+          <nav aria-label="Post navigation">
+            <ul class="pagination justify-content-center mt-4">
+              <li class="page-item{% if page.next %}{% else %} disabled{% endif %}"><a class="page-link" href="{{ page.next.url }}">Previous</a></li>
+              <li class="page-item{% if page.previous %}{% else %} disabled{% endif %}"><a class="page-link" href="{{ page.previous.url }}">Next</a></li>
+            </ul>
+          </nav>
+
+        </div>
+        <div class="col">
+          <h2 class="mt-0">More Articles</h2>
+          <ul class="list-unstyled">
+          {% for post in site.posts %}
+            <li class="mb-2"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+        </div>
+      </main>
+    </div>

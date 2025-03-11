@@ -3,6 +3,4 @@ node_modules/
 bower_components/
 .sass-cache
 .jekyll-metadata
-images/.DS_Store
-
-_includes/plans/.DS_Store
+*.DS_Store

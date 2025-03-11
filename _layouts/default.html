@@ -6,10 +6,7 @@
   <body class="{{ page.url | replace: '/', '' }}">
     {% include modal.html %}
     {% include nav.html %}
-    {% include jumbotron.html heading=page.heading subheading=page.subheading %}
-    <div class="container">
-      {{ content }}
-    </div>
+    {{ content }}
     <footer>
       {% include footer.html %}
     </footer>

@@ -28,3 +28,4 @@ exclude:
 formid:
   development: mQvmFOOt
   production: Xb0RIOlD
+permalink: /blog/:categories/:title/

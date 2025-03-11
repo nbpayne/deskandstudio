@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: most
 ---
       <main class="row">
         <div class="col">
-
           {{ content }}
-
         </div>
       </main>
       <article class="row row-cols-1 row-cols-md-3">
         {% assign this = page.title | replace: ' ','-' | downcase %}
-
           {% for package in site.data[this] %}
           <div class="col mb-4">
             <div class="card text-center">
