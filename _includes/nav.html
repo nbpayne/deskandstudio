@@ -32,6 +32,9 @@
                 <li class="nav-item{% if page.url == '/desks/' %} active{% endif %}">
                   <a class="nav-link" href="{{ site.baseurl }}/desks/">Desks</a>
                 </li>
+                <li class="nav-item{% if page.url contains '/blog/' %} active{% endif %}">
+                  <a class="nav-link" href="{{ site.baseurl }}/blog/">Blog</a>
+                </li>
                 {% comment %}
                 <li class="nav-item{% if page.url == '/meetings/' %} active{% endif %}">
                   <a class="nav-link" href="{{ site.baseurl }}/meetings/">Meetings</a>
