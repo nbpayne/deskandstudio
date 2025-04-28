@@ -54,7 +54,7 @@ The studio has a number of equipment options available, including:
 
 * 2 x Godox 1200IIM 1200w studio flash heads + Trigger
 * 4 x Godox 600IIM 600W studio flash head + Trigger
-* 6 x 60cmX90cm &nbsp;softboxes
+* 6 x 60cm x 90cm softboxes
 * 2 x strip softboxes
 * 140cm octagon softbox
 * 55cm and 70cm beauty dish with honeycomb grid
@@ -65,7 +65,7 @@ The studio has a number of equipment options available, including:
 * Paper roll backdrops on the wall in white, black, grey and beige. Chroma key green and various other colours on request!
 * Sandbags, C-Stands, Boom and Column Stand
 * 4 x Godox SL200II high power continuous LED Light with bowens mount to suit all our light shapers
-* 2 x continuous lighting 600 bi-colour LED panels
+* 2 x continuous lighting 1' bi-colour LED panels
 
 We are continually growing our equipment list, please call the studio manager if you have any additional requirements.
 
