@@ -11,11 +11,11 @@ var myLazyLoad = new LazyLoad();
 //   }
 // });
 
-$(document).ready(function() {
-  if (sessionStorage.bannerShown != 1) {
-    sessionStorage.bannerShown = 1;
-    setTimeout(function() {
-      $('.banner').collapse('show');
-    }, 1000);
-  }
-});
+// $(document).ready(function() {
+//   if (sessionStorage.bannerShown != 1) {
+//     sessionStorage.bannerShown = 1;
+//     setTimeout(function() {
+//       $('.banner').collapse('show');
+//     }, 1000);
+//   }
+// });
