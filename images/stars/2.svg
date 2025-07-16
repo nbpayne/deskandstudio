@@ -3,10 +3,10 @@
 <svg width="100%" height="100%" viewBox="0 0 48 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1,0,0,1,-160.116,-90.0053)">
         <g transform="matrix(0.600185,0,0,0.600185,63.838,36.0417)">
-            <path d="M179.663,90.146L184.152,103.961L198.678,103.961L186.926,112.5L191.415,126.315L179.663,117.777L167.911,126.315L172.4,112.5L160.648,103.961L175.174,103.961L179.663,90.146Z" style="fill:rgb(255,187,0);stroke:black;stroke-width:0.47px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+            <path d="M179.663,90.146L184.152,103.961L198.678,103.961L186.926,112.5L191.415,126.315L179.663,117.777L167.911,126.315L172.4,112.5L160.648,103.961L175.174,103.961L179.663,90.146Z" style="fill:rgb(255,187,0);stroke:black;stroke-width:0px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
         </g>
         <g transform="matrix(0.600185,0,0,0.600185,87.9634,36.0417)">
-            <path d="M179.663,90.146L184.152,103.961L198.678,103.961L186.926,112.5L191.415,126.315L179.663,117.777L167.911,126.315L172.4,112.5L160.648,103.961L175.174,103.961L179.663,90.146Z" style="fill:rgb(255,187,0);stroke:black;stroke-width:0.47px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+            <path d="M179.663,90.146L184.152,103.961L198.678,103.961L186.926,112.5L191.415,126.315L179.663,117.777L167.911,126.315L172.4,112.5L160.648,103.961L175.174,103.961L179.663,90.146Z" style="fill:rgb(255,187,0);stroke:black;stroke-width:0px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
         </g>
     </g>
 </svg>
