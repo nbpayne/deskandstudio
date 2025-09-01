@@ -29,3 +29,13 @@ formid:
   development: mQvmFOOt
   production: Xb0RIOlD
 permalink: /blog/:categories/:title/
+defaults:
+  -
+    scope:
+      path: "docs/*.pdf"
+    values:
+      sitemap: false
+    scope:
+      path: "googlebb10ab82a527f8f4.html"
+    values:
+      sitemap: false
