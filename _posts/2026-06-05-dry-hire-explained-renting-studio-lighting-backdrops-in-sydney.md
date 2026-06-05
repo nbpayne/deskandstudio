@@ -24,7 +24,7 @@ Dry hire is a great fit in a few common situations:
 
 Dry hire isn't always the answer. If your shoot needs reliable natural light, height, a true white backdrop, a green room for hair and makeup, or simply a calm, controlled environment, hiring a studio space is usually simpler and better value. You skip the transport, the setup from scratch and the risk that your chosen location doesn't quite work on the day.
 
-A quick rule of thumb: if the *space* is the problem, hire a studio. If only the *gear* is missing, dry hire.
+A quick rule of thumb: if the *space* is the problem, hire a studio. If only the *gear* is missing, dry hire. Our guides to [self-shoot studios](/blog/self-shoot-studio-take-your-own-photos/) and [hiring a video studio](/blog/hiring-a-video-studio-in-sydney-green-screen-lighting-and-sound/) walk through what each kind of booking involves.
 
 ## What to check before you hire equipment
 
