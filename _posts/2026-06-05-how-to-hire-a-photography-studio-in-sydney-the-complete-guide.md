@@ -9,7 +9,7 @@ image:
 
 There's a moment every photographer and content creator reaches where the kitchen window and a bedsheet backdrop stop cutting it. Maybe a client wants a polished look you can't get at home, or the weather keeps sabotaging your outdoor plans. That's usually when people start searching for a photography studio in Sydney, and quickly realise there's more to it than picking the first space that pops up.
 
-At Desk & Studio, we've welcomed hundreds of photographers, videographers and brands into our space in Petersham, and we've noticed the same questions come up again and again. So whether this is your first studio booking or your fiftieth, here's an honest, practical guide to hiring a studio that actually suits your shoot.
+At Desk & Studio, we've welcomed hundreds of photographers, videographers and brands into our space in Petersham, and we've noticed the same questions come up again and again. Whatever you are shooting, you might also like our guides to [self-shoot studios](/blog/self-shoot-studio-take-your-own-photos/), [content and personal branding shoots](/blog/content-personal-branding-shoot-sydney-studio/) and [hiring a video studio](/blog/hiring-a-video-studio-in-sydney-green-screen-lighting-and-sound/). So whether this is your first studio booking or your fiftieth, here's an honest, practical guide to hiring a studio that actually suits your shoot.
 
 ## What you're really paying for
 
@@ -34,7 +34,7 @@ A five-minute enquiry can save you a frustrating shoot day. Before you lock anyt
 
 ## Matching the space to your shoot
 
-Not every studio suits every job, and that's the point. A newborn or family session wants warmth, soft window light and a calm green room. A fashion or editorial shoot wants height, clean backdrops and punchy studio lighting. Product and e-commerce work needs consistency you can replicate shot after shot. Personal branding and content days want flexibility: a few looks in one space without packing the car between locations.
+Not every studio suits every job, and that's the point. A newborn, family or [boudoir and portrait session](/blog/how-to-hire-a-studio-for-a-boudoir-or-portrait-shoot/) wants warmth, soft window light and a calm green room. A fashion or editorial shoot wants height, clean backdrops and punchy studio lighting. Product and e-commerce work needs consistency you can replicate shot after shot. Personal branding and content days want flexibility: a few looks in one space without packing the car between locations.
 
 When you enquire, tell the studio what you're shooting and who's coming. We'd far rather help you decide whether our space is right than have you book the wrong room for the job.
 
