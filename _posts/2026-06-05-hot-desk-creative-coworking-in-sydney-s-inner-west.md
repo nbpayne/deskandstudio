@@ -9,7 +9,7 @@ image:
 
 Working for yourself is wonderful right up until the moment the dishwasher, the doorbell and the lure of the couch gang up on your focus. For a lot of creatives, freelancers and small studios, that's the point where a hot desk starts to look very appealing: a proper place to work that isn't a café with patchy wifi or a home office that never quite switches off.
 
-At Desk & Studio, we built our space around creative people, so we understand the pull of a calm, inspiring desk you can simply turn up to. Here's a friendly guide to hot desking and creative coworking in Sydney's Inner West, and how to find a setup that genuinely suits you.
+At Desk & Studio, we built our space around creative people, so we understand the pull of a calm, inspiring desk you can simply turn up to. Here's a friendly guide to hot desking and creative coworking in Sydney's Inner West, and how to find a setup that genuinely suits you. Many of our desk members also book the studio for a [content or personal branding shoot](/blog/content-personal-branding-shoot-sydney-studio/) or a [self-shoot session](/blog/self-shoot-studio-take-your-own-photos/) when they need fresh images.
 
 ## What is a hot desk, exactly?
 
