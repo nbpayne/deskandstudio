@@ -52,4 +52,4 @@ Our Petersham studio is built for exactly this kind of day, with natural light, 
 
 ## Ready to build your content library?
 
-If you want a bright, flexible studio for a content or personal branding shoot in Sydney's Inner West, come and create with us. Take a look at our [photo studio](/photo-studio/) and [book your session online](https://deskandstudio.simplybook.me/v2/#book). We can't wait to see what you make.
+If you want a bright, flexible studio for a content or personal branding shoot in Sydney’s Inner West, come and create with us. Take a look at our [photo studio](/photo-studio/) and [book your session online](https://deskandstudio.simplybook.me/v2/#book). We can’t wait to see what you make.
