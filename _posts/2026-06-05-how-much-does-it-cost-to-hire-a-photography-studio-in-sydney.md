@@ -9,7 +9,7 @@ image:
 
 "How much does it cost to hire a photography studio?" is one of the first questions we hear, and the honest answer is that it depends on a handful of things. That's not a dodge. It's because a bright, fully equipped space with professional lighting is a very different proposition to an empty room with a power point and good intentions.
 
-At Desk & Studio, we'd rather you understood what you're paying for than chased the lowest number and ended up disappointed. So here's a clear look at what actually drives studio rental rates in Sydney, and how to make sure your money is well spent.
+At Desk & Studio, we'd rather you understood what you're paying for than chased the lowest number and ended up disappointed. So here's a clear look at what actually drives studio rental rates in Sydney, and how to make sure your money is well spent. If you are planning to shoot solo, our guide to [self-shoot studios](/blog/self-shoot-studio-take-your-own-photos/) helps you budget your time too.
 
 ## What drives the price
 
@@ -33,7 +33,7 @@ A little planning goes a long way toward stretching your studio budget:
 
 1. **Plan your shots before you arrive.** A simple shot list means you spend your booked hours shooting, not deciding.
 2. **Book the right length.** Be realistic about setup and pack-down. Running over because you under-booked is stressful; a sensible block keeps the day calm.
-3. **Batch your work.** If you shoot content regularly, a single full day can produce weeks of material, far better value than repeated short sessions.
+3. **Batch your work.** If you shoot content regularly, a single full day on a [content or personal branding shoot](/blog/content-personal-branding-shoot-sydney-studio/) can produce weeks of material, far better value than repeated short sessions.
 4. **Use what's included.** If the studio provides lighting and backdrops, learn the kit and lean on it rather than bringing duplicates.
 5. **Ask about quieter times.** Some studios offer better rates outside peak periods.
 
