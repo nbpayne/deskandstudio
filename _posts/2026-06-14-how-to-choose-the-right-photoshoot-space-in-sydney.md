@@ -5,7 +5,7 @@ image:
   path: /uploads/studio-and-paper-rolls.jpg
   caption: Article and Photo by Lyn Taylor
 ---
-Finding the right space can make or break a shoot. Maybe you have a clear vision and just need four walls and good light to bring it to life. Maybe you are still working out what you need and the choices feel a little overwhelming. Either way, you are in the right place.
+Finding the right space can make or break a shoot. Maybe you have a clear vision and just need four walls and good light to bring it to life. Maybe you are still working out what you need and the choices feel a little overwhelming. Either way, you are in the right place...
 
 At Desk and Studio, we have welcomed photographers, content creators, models and brands of every kind through our doors, and we have learned that the best results almost always start with the right space. Here is how to choose a photoshoot space in Sydney that genuinely suits the work you want to make.
 
