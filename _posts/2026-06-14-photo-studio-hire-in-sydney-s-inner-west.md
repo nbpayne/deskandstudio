@@ -7,7 +7,7 @@ image:
 ---
 If you are searching for a photo studio in Sydney, where you shoot matters almost as much as the space itself. The right location is easy to reach, surrounded by character, and close to everything you might need on the day.
 
-At Desk and Studio, we are proud to call Sydney's Inner West home. Our studio sits in Petersham, just across from Norton Street in Leichhardt, in one of the most creative pockets of the city. Here is why the Inner West is such a lovely place to shoot, and what you can expect when you hire our space.
+At Desk and Studio, we are proud to call Sydney’s Inner West home. Our studio sits in Petersham, just across from Norton Street in Leichhardt, in one of the most creative pockets of the city. Here is why the Inner West is such a lovely place to shoot, and what you can expect when you hire our space.
 
 ## Why the Inner West is a great place to shoot
 
@@ -17,7 +17,7 @@ For a shoot, that combination is hard to beat. You can load in without battling 
 
 ## Where we are
 
-You will find us in **Petersham**, in Sydney's Inner West, a short hop from **Leichhardt**, **Marrickville**, **Stanmore**, **Newtown** and **Annandale**. We are across from the well-loved Norton Street precinct, so you are never far from a good coffee or a bite to eat.
+You will find us in **Petersham**, in Sydney’s Inner West, a short hop from **Leichhardt**, **Marrickville**, **Stanmore**, **Newtown** and **Annandale**. We are across from the well-loved Norton Street precinct, so you are never far from a good coffee or a bite to eat.
 
 For anyone coming from further afield, the Inner West is well connected by train and bus, and it is an easy drive from the CBD, the Eastern Suburbs and the Inner South. If you are travelling with gear, it is a far gentler trip than heading into the heart of the city.
 
@@ -54,7 +54,7 @@ Take a look at our [photo studio](/photo-studio/) and [book your session online]
 
 ## Frequently Asked Questions
 
-**Where is your photo studio located?** We are in Petersham, in Sydney's Inner West, across from Norton Street in Leichhardt. We are close to Marrickville, Stanmore, Newtown and Annandale, and easy to reach by car or public transport.
+**Where is your photo studio located?** We are in Petersham, in Sydney’s Inner West, across from Norton Street in Leichhardt. We are close to Marrickville, Stanmore, Newtown and Annandale, and easy to reach by car or public transport.
 
 **What can I hire at your Inner West studio?** You can hire our photo studio, dry hire lighting and backdrop packages, join a workshop, or book a desk in our coworking space. Many people combine a few of these in one visit.
 
