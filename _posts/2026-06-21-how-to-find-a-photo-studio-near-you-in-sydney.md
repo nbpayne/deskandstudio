@@ -5,21 +5,21 @@ image:
   path: /uploads/studio-and-paper-rolls.jpg
   caption: Article and Photo by Lyn Taylor
 ---
-If you have ever typed "photo studio near me" into your phone before a shoot, you are in good company. It is one of the most common ways creatives start the search for a space, and it makes sense. When you are carrying gear, working to a schedule and trying to keep a client relaxed, where you shoot matters almost as much as the space itself.
+If you have ever typed “photo studio near me” into your phone before a shoot, you are in good company. It is one of the most common ways creatives start the search for a space, and it makes sense. When you are carrying gear, working to a schedule and trying to keep a client relaxed, where you shoot matters almost as much as the space itself.
 
 At Desk and Studio, we talk to photographers, content creators and small business owners every week who are weighing up where to book. The good news is that finding the right studio near you is less about the closest pin on the map and more about choosing a space that makes your whole day easier. Here is how to think about it, and what to look for before you book.
 
-## What "near me" really means when you choose a studio
+## What “near me” really means when you choose a studio
 
 Distance is the obvious starting point, but it is rarely the thing that makes or breaks a shoot. A studio ten minutes away with no parking and three flights of stairs can be far more stressful than one twenty minutes away with easy load-in and a train station around the corner.
 
-When you search for a photo studio near you, it helps to widen the question. Instead of only asking "how close is it", ask "how easy is the whole trip, from packing the car to walking out at the end of the day". The best choice is the studio that gets you shooting quickly, keeps your gear safe, and leaves you with energy for the creative work rather than the logistics.
+When you search for a photo studio near you, it helps to widen the question. Instead of only asking “how close is it”, ask “how easy is the whole trip, from packing the car to walking out at the end of the day”. The best choice is the studio that gets you shooting quickly, keeps your gear safe, and leaves you with energy for the creative work rather than the logistics.
 
 ## How to find a photo studio near you
 
 A little research up front saves a lot of stress on the day. Here are the things worth checking before you commit.
 
-1. **Start with a map search, then look past the pin.** A quick search for "photo studio near me" or "photo studio Sydney" will show you what is around. Treat it as a shortlist, not a decision, and click through to each studio's own website to see what they actually offer.
+1. **Start with a map search, then look past the pin.** A quick search for “photo studio near me” or “photo studio Sydney” will show you what is around. Treat it as a shortlist, not a decision, and click through to each studio’s own website to see what they actually offer.
 2. **Check how easy it is to load in.** Look for information about parking, kerbside access, lifts and whether the studio is on the ground floor. If you are bringing lighting, backdrops or product, an easy load-in is worth more than a few saved minutes of driving.
 3. **Look at the public transport links.** If you or your team travel by train or bus, a studio near a station or a main route is a real advantage. It also makes life easier for models, stylists and clients who are meeting you there.
 4. **Think about what is nearby.** Coffee, food and a chemist or hardware shop within a short walk can quietly rescue a shoot day. Being close to cafes and shops means you can grab a flat white between setups or replace something you forgot without losing your slot.
@@ -31,7 +31,7 @@ A little research up front saves a lot of stress on the day. Here are the things
 
 Here is something worth keeping in mind: the most convenient studio is not always the one in your own suburb. A central, well-connected space can be easier to reach than somewhere technically closer but tucked away.
 
-That is one of the reasons we love being where we are. You will find Desk and Studio in Petersham, in Sydney's Inner West, just across from the Norton Street precinct in Leichhardt. It is central without the rush of the CBD, and it is genuinely easy to get to from across the city.
+That is one of the reasons we love being where we are. You will find Desk and Studio in Petersham, in Sydney’s Inner West, just across from the Norton Street precinct in Leichhardt. It is central without the rush of the CBD, and it is genuinely easy to get to from across the city.
 
 If you are coming from the west, suburbs like Parramatta, Strathfield and Homebush have a straightforward run in by car or train. From the CBD, the Eastern Suburbs or the Inner South, it is a short, gentle trip that is far kinder than battling city traffic with a boot full of gear. And if you are local to Marrickville, Stanmore, Newtown or Annandale, you are only minutes away. So even when we are not in your exact suburb, there is a good chance we are one of the easiest studios for you to reach.
 
@@ -54,7 +54,7 @@ If you have been searching for a photo studio near you in Sydney and you want a 
 
 ## Frequently Asked Questions
 
-**How do I find a photo studio near me in Sydney?** Start with a map search for terms like "photo studio near me", then click through to each studio's website to compare what is included, how you book, and how easy it is to load in and park. Choose the space that makes the whole day easy, not just the closest pin.
+**How do I find a photo studio near me in Sydney?** Start with a map search for terms like “photo studio near me”, then click through to each studio’s website to compare what is included, how you book, and how easy it is to load in and park. Choose the space that makes the whole day easy, not just the closest pin.
 
 **Do I need a studio in my exact suburb?** Not at all. A central, well-connected studio is often easier to reach than one that is technically closer but harder to access. Look at transport, parking and load-in rather than distance alone.
 
