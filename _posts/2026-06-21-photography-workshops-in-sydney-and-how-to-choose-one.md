@@ -5,7 +5,7 @@ image:
   path: /uploads/lighting-equipment.jpg
   caption: Article and Photo by Lyn Taylor
 ---
-There is a moment in every photographer's journey when practising alone stops being enough. You have watched the tutorials, read the articles and taken hundreds of frames, and you can feel that the next step is something more hands on. That is often the moment a good workshop changes everything.
+There is a moment in every photographer’s journey when practising alone stops being enough. You have watched the tutorials, read the articles and taken hundreds of frames, and you can feel that the next step is something more hands on. That is often the moment a good workshop changes everything.
 
 At Desk and Studio, we have had the privilege of watching countless photographers refine their skills, find their style and push their creative boundaries. Time and again, the people who grow fastest are the ones who learn alongside others, with real gear in their hands and someone experienced to guide them. If you are thinking about a photography workshop in Sydney, here is how to choose one that is genuinely worth your time.
 
@@ -49,11 +49,11 @@ Once you have booked, a little preparation helps you get full value from the day
 * **Take notes, then practise quickly.** Skills fade if they sit unused. Try to shoot again within a week while it is all still fresh.
 * **Be brave and shoot.** The people who grow most are the ones who pick up the camera and try, mistakes and all. Everyone in the room is there to learn.
 
-If you want to keep building between workshops, our [photographer's growth guide](/blog/a-photographers-growth-guide/) is full of encouragement, and [mastering natural and studio light](/blog/mastering-natural-and-studio-light/) is a great next read once you have some lighting basics under your belt.
+If you want to keep building between workshops, our [photographer’s growth guide](/blog/a-photographers-growth-guide/) is full of encouragement, and [mastering natural and studio light](/blog/mastering-natural-and-studio-light/) is a great next read once you have some lighting basics under your belt.
 
 ## Workshops at Desk and Studio
 
-Our photography and cinematography workshops are designed to be friendly, practical and hands on, held right here in our naturally lit studio in Sydney's Inner West. You learn on professional lighting and backdrops, in a relaxed space, alongside people who love the craft as much as you do. Whether you are picking up a camera with intent for the first time or sharpening skills you already have, there is a place for you.
+Our photography and cinematography workshops are designed to be friendly, practical and hands on, held right here in our naturally lit studio in Sydney’s Inner West. You learn on professional lighting and backdrops, in a relaxed space, alongside people who love the craft as much as you do. Whether you are picking up a camera with intent for the first time or sharpening skills you already have, there is a place for you.
 
 ## Book your spot at Desk and Studio
 
