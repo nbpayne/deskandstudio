@@ -9,7 +9,7 @@ Hi, and welcome. If you have ever packed down at the end of a brilliant shoot, l
 
 It is an exciting thought, and it is also a big financial and lifestyle decision. The honest truth we have learned from years of watching photographers grow is that a permanent studio is a joy for some and an expensive burden for others. So let us walk through it together, without the hype, so you can make the choice that genuinely fits your work and your budget.
 
-## The real question behind "should I rent my own studio?"
+## The real question behind “should I rent my own studio?”
 
 When photographers ask us whether they should rent a studio space of their own, what they are really weighing up is three things at once: money, flexibility and identity. A space of your own feels professional and permanent. It gives you somewhere to leave your gear set up, to meet clients, and to call home base.
 
@@ -51,7 +51,7 @@ If you are genuinely torn, this short exercise brings the numbers into focus. Gr
 
 Here is the option people often miss. You do not have to choose between a bare hired room by the hour and a full commercial lease. There is a comfortable middle, and it is where a lot of our regulars happily live.
 
-You can build a professional practice around flexible studio hire for your shoots, a [hot desk or coworking membership](/blog/hot-desk-creative-coworking-in-sydney-s-inner-west/) for your editing, admin and client meetings, and an [All-Access Pass](/blog/introducing-the-all-access-pass/) when the studio becomes a regular part of your week. That combination gives you a real creative home in Sydney's Inner West, quality light and equipment, and a place to meet clients, all without a bond, a fit-out or a lease locking you in.
+You can build a professional practice around flexible studio hire for your shoots, a [hot desk or coworking membership](/blog/hot-desk-creative-coworking-in-sydney-s-inner-west/) for your editing, admin and client meetings, and an [All-Access Pass](/blog/introducing-the-all-access-pass/) when the studio becomes a regular part of your week. That combination gives you a real creative home in Sydney’s Inner West, quality light and equipment, and a place to meet clients, all without a bond, a fit-out or a lease locking you in.
 
 If you are earlier in the journey and still comparing spaces, our [complete guide to hiring a photography studio in Sydney](/blog/how-to-hire-a-photography-studio-in-sydney-the-complete-guide/) and our honest breakdown of [what studio hire actually costs](/blog/how-much-does-it-cost-to-hire-a-photography-studio-sydney/) are the perfect next reads.
 
@@ -65,7 +65,7 @@ If you are earlier in the journey and still comparing spaces, our [complete guid
 
 **How many shoot days a month make a private studio worth it?** There is no single number, but a useful rule of thumb is that once you are shooting several days every week, ownership starts to compete with hiring on cost. Below that, flexible hire usually keeps more money in your pocket.
 
-**Where can I hire a photography studio in Sydney's Inner West?** Right here. Desk and Studio is in Petersham, in Sydney's Inner West, with a natural-light studio, paper roll backdrops, dry hire equipment, a green room and desk space, so you can grow your practice at the pace that suits you.
+**Where can I hire a photography studio in Sydney’s Inner West?** Right here. Desk and Studio is in Petersham, in Sydney’s Inner West, with a natural-light studio, paper roll backdrops, dry hire equipment, a green room and desk space, so you can grow your practice at the pace that suits you.
 
 ## Ready to create without the lease?
 
