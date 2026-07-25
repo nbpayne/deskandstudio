@@ -5,11 +5,11 @@ image:
   path: /uploads/lighting-equipment.jpg
   caption: Article and Photo by Lyn Taylor
 ---
-Hi, and welcome. Let us start with something we say to photographers all the time at Desk and Studio: a small budget has never stopped anyone making beautiful work. Some of the strongest portfolios we have watched grow in our Petersham studio were built by creatives counting every dollar. What they had was not deep pockets. It was a plan.
+Hi, and welcome. Let us start with something we say to photographers all the time at Desk and Studio: a small budget has never stopped anyone making beautiful work.  Some of the strongest portfolios we have watched grow in our Petersham studio were built by creatives counting every dollar. What they had was not deep pockets. It was a plan.
 
 If you have been searching for cheap photography studio hire in Sydney, you have probably noticed that prices are all over the place and it is hard to know what is a bargain and what is a trap. So let us talk honestly about how photography studio rental rates work, where the real savings hide, and how to walk out of a modest booking with results that look anything but modest.
 
-## What "cheap" studio hire really means
+## What “cheap” studio hire really means
 
 Here is the first thing worth saying: the cheapest hourly rate is not always the cheapest shoot. A bargain space with no lighting, no backdrops, nowhere for your client to change and no help when something goes wrong has a way of costing you elsewhere. You end up carting gear across Sydney, losing paid time to problems, or reshooting entirely.
 
