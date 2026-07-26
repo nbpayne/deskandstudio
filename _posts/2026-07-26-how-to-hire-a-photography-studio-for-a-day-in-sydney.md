@@ -46,7 +46,7 @@ Not every space is set up for a long day. Before you book, check the studio offe
 * **Consistent, controllable light.** A day often spans changing weather and sun angles. You want beautiful natural light plus the blinds and lighting options to control it. Our thoughts on [choosing the right photoshoot space](/blog/how-to-choose-the-right-photoshoot-space-in-sydney/) cover this in depth.
 * **A green room and client comfort.** Somewhere for outfit changes, makeup, and a quiet cuppa between sessions keeps the day civilised, especially with multiple clients coming through.
 * **Equipment on site.** Being able to [dry hire lighting and backdrop packages](/blog/dry-hire-explained-renting-studio-lighting-backdrops-in-sydney/) with the space means less to transport and more to work with.
-* **Easy access and parking.** Loading gear at 8am and again at 6pm is far kinder with parking nearby. Our Petersham studio sits in Sydney's Inner West with easy access, which your back will thank you for.
+* **Easy access and parking.** Loading gear at 8am and again at 6pm is far kinder with parking nearby. Our Petersham studio sits in Sydney’s Inner West with easy access, which your back will thank you for.
 * **A host who actually helps.** A studio team that answers questions quickly before the day, and is reachable on the day, removes half the stress of a big shoot.
 
 ## Making the day pay for itself
@@ -63,7 +63,7 @@ Here is the mindset shift we love seeing photographers make: a day hire is not a
 
 **Does day hire include lighting and backdrops?** The natural light studio comes with the space itself, and you can dry hire professional lighting and backdrop packages to go with it, so the gear is waiting for you rather than travelling with you.
 
-**Do I need to hire a studio near me, or is it worth travelling?** Closer is easier for a long day, but the right space matters more than the shortest drive. Desk and Studio is in Petersham in Sydney's Inner West, minutes from the city and easy to reach from most of Sydney.
+**Do I need to hire a studio near me, or is it worth travelling?** Closer is easier for a long day, but the right space matters more than the shortest drive. Desk and Studio is in Petersham in Sydney’s Inner West, minutes from the city and easy to reach from most of Sydney.
 
 ## Ready to book your day in the studio?
 
