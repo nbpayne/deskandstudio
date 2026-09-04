@@ -53,12 +53,6 @@ Music videos for Anabelle Kay, Danielle Deckard, Jess Starreveld, Crash & The Ca
 
 Studio hire includes access to two green screens: our 2.7m chroma key green paper roll backdrop for an horizonless background, or our 6m wide by 3m high cotton muslin green screen for wide scenes. We have ample continuous lighting to brightly, and evenly light the backdrops for easy keying of the background in post.
 
-<div class="row">
-            <div class="col-lg mb-3"><iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/BlG11xyg4ah/embed/captioned/?cr=1&amp;v=9&amp;wp=1080&amp;rd=https%3A%2F%2Fsteaming-nightingale--9752874zx-cloudventzx-net.proxy.cloudcannon.com&amp;rp=%2Fvideo-studio%2F%3Feditor%3Dvisual#%7B%22ci%22%3A0%2C%22os%22%3A246.59999999997672%2C%22ls%22%3A227.29999999998836%2C%22le%22%3A243.19999999995343%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="699" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
-              <script async="" defer="" src="//www.instagram.com/embed.js"></script>
-            </div>
-          </div>
-
 ### Interviews
 
 ---
