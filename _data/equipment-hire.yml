@@ -1,5 +1,5 @@
 - name: One Light Hire Package
-  price: 110
+  price: 185
   includes:
     - 1 x Godox QT600ii flash head OR Godox SL200ii continuous light
     - 1 x Power lead
@@ -7,7 +7,7 @@
     - 1 x Manfrotto 1004BAC Light Stand
     - 1 x Godox XPRO TTL Wireless Flash trigger (if hiring flash heads)
 - name: Two Light Hire Package
-  price: 220
+  price: 280
   includes:
     - 2 x Godox QT600ii flash heads OR Godox SL200ii continuous lights
     - 2 x Power leads
@@ -15,31 +15,31 @@
     - 2 x Manfrotto 1004BAC Light Stands
     - Godox XPRO TTL Wireless Flash trigger (if hiring flash heads)
 - name: Small Paper Roll & Backdrop Stand Hire
-  price: 88
+  price: 110
   includes:
     - 1.35m paper roll
     - Manfrotto 1314B Studio Background Support System
     - 2 x Spring clamps
     - Carry Bag
 - name: Large Paper Roll & Backdrop Stand Hire
-  price: 110
+  price: 195
   includes:
     - 2.73m wide paper roll
     - Manfrotto 1314B Studio Background Support System
     - 2 x Spring clamps
     - Stand Carry Bag
 - name: Home Studio Hire Package
-  price: 190
+  price: 350
   includes:
     - Everything in the One Light Hire Package plus...
     - Everything in the Small Paper Roll & Backdrop Hire Package
 - name: Large Backdrop & Lights Hire Package
-  price: 250
+  price: 450
   includes:
     - Everything in the Two Light Hire Package plus...
     - Everything in the Large Paper Roll & Backdrop Stand Hire
 - name: Small Canvas Backdrop Package
-  price: 180
+  price: 280
   includes:
     - Available in textured cream (Lara) or textured black (Sue)
     - 1.6m x 2m hand painted canvas backdrop
@@ -47,19 +47,19 @@
     - 2 x Spring clamps
     - Stand Carry Bag
 - name: Large Canvas Backdrop Package
-  price: 225
+  price: 350
   includes:
     - 2.14m x 3m Rose Gold or Textured Black
     - 2 x Nicefoto backdrop stands
     - 2 x Spring clamps
 - name: Extra Large Canvas Backdrop Package
-  price: 280
+  price: 380
   includes:
     - 3m x 3m textured cream (Lara)
     - 2 x Nicefoto backdrop stands
     - 2 x Spring clamps
 - name: Location light package
-  price: 250
+  price: 280
   includes:
     - Godox AD600BM x 2
     - Light stands x 2
