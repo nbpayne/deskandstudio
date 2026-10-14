@@ -35,6 +35,7 @@ defaults:
       path: "docs/*.pdf"
     values:
       sitemap: false
+  -
     scope:
       path: "googlebb10ab82a527f8f4.html"
     values:
