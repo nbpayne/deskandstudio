@@ -3,9 +3,8 @@ title: Photography studio hire
 permalink: /photo-studio/
 layout: page
 nav: Photo Studio
-description: >-
-  Flexible photography studio optimised for both natural light, and studio
-  lights. All backdrops and ligthing is included in the hire price.
+description: Flexible photography studio optimised for both natural light, and
+  studio lights. All backdrops and ligthing is included in the hire price.
 heading: Looking for a Sydney photography studio or want to rent a studio in Sydney?
 subheading: Flexible photo studio hire in Sydney’s inner west
 image:
@@ -39,7 +38,7 @@ The studio is painted white with two large arch windows, allowing for beautiful 
 * Floor area 5.7m wide x 9m deep with high ceilings (4.6m)
 * White brick walls give a textured backdrop
 * Great for photographers looking to shoot in natural light
-* Internet via NBN WiFi (100Mbps downstream, 40Mbps upstream)
+* Internet via NBN WiFi (250Mbps downstream, 100Mbps upstream)
 * Unisex toilets and change area
 * Kitchenette with fridge, kettle, toaster and coffee & tea facilities
 * 15 minutes from Sydney by bus
@@ -65,7 +64,7 @@ The studio has a number of equipment options available, including:
 * Paper roll backdrops on the wall in white, black, grey and beige. Chroma key green and various other colours on request!
 * Sandbags, C-Stands, Boom and Column Stand
 * 4 x Godox SL200II high power continuous LED Light with bowens mount to suit all our light shapers
-* 2 x continuous lighting 1' bi-colour LED panels
+* 2 x continuous lighting 1’ bi-colour LED panels
 
 We are continually growing our equipment list, please call the studio manager if you have any additional requirements.
 
@@ -79,12 +78,13 @@ Check availability and book online now.
 
 {% include plans.html %}
 
-Cancellation policy
-: We understand... sometimes s#!t happens! A full refund applies if you give us 72 hours notice; less than 72 hours will receive a 50% refund.
-: Similarly, moving your shoot date is free given more than 72 hours notice. Otherwise, a $25 admin fee will apply.
-
-Concessions
-: Concession rates are available for student shoots -- [get in touch with your details](/contact/).
+<dl>
+  <dt>Cancellation policy</dt>
+  <dd>We understand... sometimes s#!t happens! A full refund applies if you give us 72 hours notice; less than 72 hours will receive a 50% refund.</dd>
+  <dd>Similarly, moving your shoot date is free given more than 72 hours notice. Otherwise, a $25 admin fee will apply.</dd>
+  <dt>Concessions</dt>
+  <dd>Concession rates are available for student shoots -- <a href="/contact/">get in touch with your details</a>.</dd>
+</dl>
 
 ### Location
 
@@ -98,7 +98,7 @@ The studio is a short walk from bus stops along Parramatta Road at Petersham. We
 
 <div id="reviews" class="card-columns"></div>
 
-[Read more reviews or leave a review yourself](https://deskandstudio.simplybook.me/v2/#reviews){: target="_blank"}
+[Read more reviews or leave a review yourself](https://deskandstudio.simplybook.me/v2/#reviews){: target="_blank" rel="noopener"}
 
 #### Ready to book your next photo shoot?
 

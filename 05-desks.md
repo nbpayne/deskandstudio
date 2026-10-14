@@ -39,10 +39,8 @@ Once you book a desk, you’re in! Aside from the personal concierge service, su
 * 1 awesome desk and chair, which includes lockable drawers and filing cabinet
 * Option of a standing desk – shared layout space for creativity, samples, presentations
 * Access to [Studio space](/photo-studio/)
-* Unlimited Internet via NBN WiFi (100Mbps downstream, 40Mbps upstream)
-* Lockable storage areas for equipment
+* Unlimited Internet via NBN WiFi (250Mbps downstream, 100Mbps upstream)
 * Black and white/colour printing (fair use policy applies)
-* Meeting room
 * All bills included
 * 24-hour access (for permanent Deskies, access after hours by appointment for hot Deskies)
 * Fully equipped kitchenette with fridge, microwave, sink, tea/coffee, basic flatware and cutlery
@@ -57,12 +55,11 @@ There are three types of Deskies… which one will you be?
 
 ---
 
-New to the co-working caper? Not sure you’re ready for commitment? It doesn’t matter, you still get a succulent! Dip your toe into the creative waters with a daily rate:
+New to the co-working caper? Not sure you’re ready for commitment? Dip your toe into the creative waters with a daily rate:
 
 * Come and go with a hot desk (after hours by arrangement)
 * Pay per day
 * No contract or commitment
-* Access to conference room included (subject to availability)
 
 ### Weekly Deskie
 
@@ -73,7 +70,6 @@ Expanding your solo business, or making the transition out of standard working l
 * Get a designated desk (after hours by arrangement)
 * Pay per week
 * No contract or commitment
-* Access to studio and conference room included (subject to availability)
 
 ### Dedicated Deskie
 
@@ -84,7 +80,7 @@ Are your solo business efforts paying off, and you’re now looking for a perman
 * 24/7 access
 * Be part of the community as much as you want
 * Choose your own desk
-* Most cost effective co-working plan, studio and conference room included (subject to availability)
+* 2 half-day or 1 Full-day bookings in the studio included per month, plus additional access in the quiet times (subject to availability of course!)
 
 #### Ready to be a Deskie?
 
