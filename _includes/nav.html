@@ -1,18 +1,21 @@
 
         <nav class="navbar navbar-expand-xl sticky-top navbar-light">
           <div class="container">
-            <a class="navbar-brand" href="{{ site.baseurl }}/">
+            <a class="navbar-brand order-1" href="{{ site.baseurl }}/">
               <img class="navbar-logo" alt="Desk and Studio" src="{{ site.baseurl }}/images/logos/logo--deskandstudio-text--bw.svg">
             </a>
-            
-            <form class="form-inline">
-              <a class="btn btn-sm btn-primary my-2" target="_blank" href="https://deskandstudio.simplybook.me/v2/#book">Book now</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <div class="d-flex align-items-center order-2 order-xl-3">
+              <form class="form-inline mr-2">
+                <a class="btn btn-md btn-success" target="_blank" href="https://deskandstudio.simplybook.me/v2/#book">Book now</a>
+              </form>
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-            </form>
+            </div>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse order-3 order-xl-2" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item{% if page.url == '/' %} active{% endif %}">
                   <a class="nav-link" aria-label="Visit homepage" href="{{ site.baseurl }}/">Home</a>
