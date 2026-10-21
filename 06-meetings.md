@@ -5,7 +5,7 @@ published: false
 layout: page
 nav: Meetings
 description: Perfect for freelancers, creatives and small business owners hosting
-  meetings, presentations or interviews off site. Call (0438) 698 924.
+  meetings, presentations or interviews off site. Call +61 (497) 777 664.
 heading: Impress your clients
 subheading: Professional meeting room for freelancers
 image:
@@ -57,4 +57,4 @@ Book online now:
 
 </div>
 
-... or call [(0438) 698 924](tel:0438698924)
+... or call [{{ site.phone_formatted }}](tel:{{ site.phone }})

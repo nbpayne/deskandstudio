@@ -1,14 +1,14 @@
 ---
-title: Photography studio in Sydney's Inner West
+title: Photo Studio Hire Petersham, Inner West Sydney
 permalink: /
 layout: home
 nav: Home
 description: >-
-  Boutique photo studio with options of natural or studio lighting. Studio hire
-  starting from $215 plus co-working/meeting/event facilities. Phone (0497) 777
-  664 .
-heading: Photo studio hire in Sydney
-subheading: A personal touch to studio hire for creatives, designers and agencies.
+  Light-filled photo studio in Petersham with lights, backdrops and a
+  green room included. Half days from $380. Open seven days a week and 
+  until 10pm Monday to Thursday.
+heading: Natural light photo studio in Petersham, open until 10pm
+subheading: A personal touch to studio hire for the content creator, photographer and agency.
 image:
   path: /uploads/das-home.jpg
   width: 1600

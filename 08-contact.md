@@ -4,8 +4,8 @@ permalink: /contact/
 layout: page
 nav: Contact
 description: >-
-  Find out how to contact Desk & Studio. Questions? Call Lyn Taylor on (0497)
-  777 664.
+  Find out how to contact Desk & Studio. Questions? Call Lyn Taylor on +61
+  (497) 777 664.
 heading: We've got your back!
 subheading: Want to know more?
 image:

@@ -4,7 +4,7 @@ permalink: /photo-studio/
 layout: page
 nav: Photo Studio
 description: Flexible photography studio optimised for both natural light, and
-  studio lights. All backdrops and ligthing is included in the hire price.
+  studio lights. All backdrops and lighting is included in the hire price.
 heading: Looking for a Sydney photography studio or want to rent a studio in Sydney?
 subheading: Flexible photo studio hire in Sydney’s inner west
 image:
@@ -102,4 +102,4 @@ The studio is a short walk from bus stops along Parramatta Road at Petersham. We
 
 #### Ready to book your next photo shoot?
 
-Do it now… [Book now](https://deskandstudio.simplybook.me/v2/#book){: .btn.btn-primary target="_blank"}
+Do it now… [Book now]({{ site.booking_url }}){: .btn.btn-primary target="_blank"}
