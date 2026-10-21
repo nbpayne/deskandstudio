@@ -1,6 +1,5 @@
 
 <div class="container">
-  <!--<a class="" href="#top"><i class="fa fa-angle-up"></i></a>-->
   <div class="row">
     <div class="col-sm-12 col-lg-6">
       <dl>
@@ -28,29 +27,25 @@
     </div>
 
     <div class="col-sm-12 col-lg-6 text-center text-md-right">
-      <img class="logo" src="{{ site.baseurl }}/images/logos/logo--deskandstudio--footer.svg">
+      <img class="logo" src="{{ site.baseurl }}/images/logos/logo--deskandstudio--footer.svg" title="Desk and Studio" alt="Desk and Studio">
       <ul class="nav social-links">
         <li class="nav-item">
-          <a class="nav-link" href="https://www.instagram.com/deskandstudio/" target="_blank" rel="noopener" class="link--default"><i class="fa fa-instagram"></i></a>
+          <a class="nav-link" href="{{ site.social.instagram }}" target="_blank" rel="noopener" class="link--default"><i class="fa fa-instagram"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/deskandstudio/" target="_blank" rel="noopener" class="link--default"><i class="fa fa-facebook"></i></a>
+          <a class="nav-link" href="{{ site.social.facebook }}" target="_blank" rel="noopener" class="link--default"><i class="fa fa-facebook"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/deskandstudio" target="_blank" rel="noopener" class="link--default"><i class="fa fa-twitter"></i></a>
+          <a class="nav-link" href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="link--default"><i class="fa fa-linkedin"></i></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/company/18164424/" target="_blank" rel="noopener" class="link--default"><i class="fa fa-linkedin"></i></a>
-        </li>
-        {% comment %}
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.theloop.com.au/deskandstudio/overview" target="_blank" rel="noopener" class="link--default">The Loop</a>
-        </li>
-        {% endcomment %}
       </ul>
       <p>
+        {{ site.address.street }}, {{ site.address.suburb }}. {{ site.address.note }}<br>
+        <a href="tel:{{ site.phone }}">{{ site.phone_formatted }}</a> | <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </p>
+      <p>
         <a href="{{ site.baseurl }}/sitemap/">Sitemap</a> | <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a> | <a href="{{ site.baseurl }}/terms/">Terms and Conditions</a><br>
-        © 2017-{{ "now" | date: "%Y" }} Desk &amp; Studio All Rights Reserved. ABN 29 208 109 739.
+        © 2017-{{ "now" | date: "%Y" }} {{ site.title | escape_once }} All Rights Reserved. ABN 29 208 109 739.
       </p>
     </div>
   </div>

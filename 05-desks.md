@@ -5,8 +5,8 @@ layout: page
 nav: Desks
 description: >-
   Hot desks and permanent desks with shared studio and meeting facilities
-  suitable for creatives, small business owners and freelancers. Phone (0497)
-  777 664.
+  suitable for creatives, small business owners and freelancers. Phone +61
+  (497) 777 664.
 heading: Outgrown WFH*
 subheading: Hire a desk, get so much more
 image:
@@ -88,4 +88,4 @@ Book today. Be a 'Deskie' tomorrow. It’s that simple!
 
 <div class="card-deck">{% include plans/desk-day.html %}<div class="column-break"> </div> {% include plans/desk-week.html %}<div class="column-break"> </div> {% include plans/desk-month.html %}</div>
 
-… or call [(0438) 698 924](tel:0438698924)
+… or call [{{ site.phone_formatted }}](tel:{{ site.phone }})

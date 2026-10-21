@@ -3,7 +3,7 @@ title: Desk & Studio is available for hire, get in touch today!
 permalink: "/thanks/"
 layout: page
 description: Find out how to contact Desk & Studio. Questions? Call Lyn Taylor on
-  (0438) 698 924.
+  +61 (497) 777 664.
 heading: Thanks!
 subheading: Our minions are busy delivering your message&hellip; in the meantime why
   not admire our greenery.
@@ -14,7 +14,7 @@ image:
 sitemap: false
 ---
 
-If you just can’t wait and want to get in touch with Lyn right away, call [(0438) 698 924](tel:0438698924).
+If you just can’t wait and want to get in touch with Lyn right away, call [{{ site.phone_formatted }}](tel:{{ site.phone }}).
 
 ### More from Desk & Studio
 
@@ -22,10 +22,9 @@ If you just can’t wait and want to get in touch with Lyn right away, call [(04
 
 Can’t get enough succulent love?
 
-- [<i class="fa fa-instagram"></i>](https://www.instagram.com/deskandstudio/) [Follow us on Instagram](https://www.instagram.com/deskandstudio/)
-- [<i class="fa fa-facebook"></i>](https://www.facebook.com/deskandstudio/) [Like us on Facebook](https://www.facebook.com/deskandstudio/)
-- [<i class="fa fa-twitter"></i>](https://twitter.com/deskandstudio){: target="_blank" } [Follow us on Twitter](https://twitter.com/deskandstudio){: target="_blank" }
-- [<i class="fa fa-linkedin"></i>](https://www.linkedin.com/company/18164424/) [Find us on LinkedIn](https://www.linkedin.com/company/18164424/)
+- [<i class="fa fa-instagram"></i>]({{ site.social.instagram }}) [Follow us on Instagram]({{ site.social.instagram }})
+- [<i class="fa fa-facebook"></i>]({{ site.social.facebook }}) [Like us on Facebook]({{ site.social.facebook }})
+- [<i class="fa fa-linkedin"></i>]({{ site.social.linkedin }}) [Find us on LinkedIn]({{ site.social.linkedin }})
 {: .social-links }
 
 {% if jekyll.environment == 'production' and site.github.repository_name == 'deskandstudio' %}

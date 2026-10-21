@@ -4,7 +4,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width">
 
-{% seo %}
+{%- assign site_title = site.title | strip_html | normalize_whitespace -%}
+{%- assign page_title = page.title | default: site_title | strip_html | normalize_whitespace -%}
+{%- assign seo_description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace -%}
+
+{%- if page.canonical_url -%}
+  {%- assign canonical_url = page.canonical_url -%}
+{%- else -%}
+  {%- assign canonical_url = page.url | absolute_url | replace: '/index.html', '/' -%}
+{%- endif -%}
+
+{%- if page.image.path -%}
+  {%- assign image_path = page.image.path -%}
+{%- elsif page.image.width or page.image.caption -%}
+  {%- assign image_path = "" -%}
+{%- else -%}
+  {%- assign image_path = page.image -%}
+{%- endif -%}
+{%- assign image_path_size = image_path | size -%}
+{%- if image_path_size > 0 -%}
+  {%- unless image_path contains '://' -%}
+    {%- assign image_path = image_path | absolute_url -%}
+  {%- endunless -%}
+  {%- assign image_url = image_path | uri_escape -%}
+{%- else -%}
+  {%- assign image_url = "" -%}
+{%- endif -%}
+
+<title>{% if page_title == site_title %}{{ site_title | escape_once }}{% else %}{{ page_title | escape_once }} | {{ site_title | escape_once }}{% endif %}</title>
+
+<meta property="og:title" content="{{ page_title | escape_once }}" />
+<meta property="og:locale" content="en_US" />
+
+{% if seo_description and seo_description != "" %}
+<meta name="description" content="{{ seo_description | escape_once }}" />
+<meta property="og:description" content="{{ seo_description | escape_once }}" />
+{% endif %}
+
+<link rel="canonical" href="{{ canonical_url }}" />
+<meta property="og:url" content="{{ canonical_url }}" />
+<meta property="og:site_name" content="{{ site_title | escape_once }}" />
+
+{% if image_url != "" %}
+<meta property="og:image" content="{{ image_url }}" />
+{% if page.image.height %}<meta property="og:image:height" content="{{ page.image.height }}" />{% endif %}
+{% if page.image.width %}<meta property="og:image:width" content="{{ page.image.width }}" />{% endif %}
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="{{ image_url }}" />
+{% else %}
+<meta name="twitter:card" content="summary" />
+{% endif %}
+<meta property="twitter:title" content="{{ page_title | escape_once }}" />
+
+{% if page.date %}
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": {{ site.title | jsonify }},
+  "image": {% if image_url != "" %}{{ image_url | jsonify }}{% else %}"https://www.deskandstudio.com/images/logos/logo--deskandstudio--bw.svg"{% endif %},
+  "logo": "https://www.deskandstudio.com/images/logos/logo--deskandstudio--bw.svg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ site.address.street | jsonify }},
+    "addressLocality": {{ site.address.suburb | jsonify }},
+    "addressRegion": {{ site.address.state | jsonify }},
+    "postalCode": {{ site.address.postcode | jsonify }},
+    "addressCountry": {{ site.address.country | jsonify }}
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -33.8882159, "longitude": 151.1586038 },
+  "telephone": {{ site.phone | jsonify }},
+  "email": {{ site.email | jsonify }},
+  "priceRange": "$380-$620",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "09:00", "closes": "18:00" }
+  ],
+  "founder": { "@type": "Person", "name": "Lyn Taylor" },
+  "sameAs": [
+    {{ site.social.instagram | jsonify }},
+    {{ site.social.facebook | jsonify }},
+    {{ site.social.linkedin | jsonify }}
+  ]
+}
+</script>
+
+{% if page.date %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page_title | jsonify }},
+  "url": {{ canonical_url | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.date | date_to_xmlschema | jsonify }}
+  {%- if seo_description and seo_description != "" %},
+  "description": {{ seo_description | jsonify }}
+  {%- endif %}
+  {%- if image_url != "" %},
+  "image": {{ image_url | jsonify }}
+  {%- endif %},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ canonical_url | jsonify }} }
+}
+</script>
+{% elsif page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site_title | jsonify }},
+  "url": {{ canonical_url | jsonify }}
+}
+</script>
+{% endif %}
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/images/favicon/apple-touch-icon.png">

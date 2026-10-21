@@ -1,19 +1,30 @@
 ---
 title: Desk & Studio
 timezone: UTC
-email: www@deskandstudio.com
+email: studio@deskandstudio.com
 description: Boutique photo studio with options of natural or studio lighting. Studio
-  hire starting from $215 plus co-working/meeting/event facilities. Phone (0438) 698
-  924.
+  hire starting from $215 plus co-working/meeting/event facilities. Phone +61 (497)
+  777 664.
+phone: "+61497777664"
+phone_formatted: "+61 (497) 777 664"
+booking_url: "https://deskandstudio.simplybook.me/v2/#book"
+address:
+  street: "460a Parramatta Rd"
+  note: "Enter via Queen St."
+  suburb: Petersham
+  state: NSW
+  postcode: "2049"
+  country: AU
+social:
+  instagram: "https://www.instagram.com/deskandstudio/"
+  facebook: "https://www.facebook.com/deskandstudio/"
+  linkedin: "https://www.linkedin.com/company/18164424/"
 repository: nbpayne/deskandstudio
 baseurl: ""
 url: https://www.deskandstudio.com
-twitter:
-  username: deskandstudio
 markdown: kramdown
 plugins:
 - jekyll-redirect-from
-- jekyll-seo-tag
 - jekyll-sitemap
 exclude:
 - bower_components

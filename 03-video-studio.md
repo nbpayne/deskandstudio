@@ -102,4 +102,4 @@ Concessions
 
 #### Ready to book your next video shoot?
 
-Do it now… [Book now](https://deskandstudio.simplybook.me/v2/#book){: .btn.btn-primary target="_blank"}
+Do it now… [Book now]({{ site.booking_url }}){: .btn.btn-primary target="_blank"}
