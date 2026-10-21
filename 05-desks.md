@@ -21,8 +21,6 @@ That’s why I created Desk & Studio. I wanted it to feel like a ‘work home’
 
 Everyone who steps over the threshold has the same reaction: “It’s so light and bright!” Surrounded by freshly painted white brick walls, the space manages to be both welcoming and inspiring.
 
-Every desk comes equipped with lockable drawers and filing cabinet, as well as a welcome succulent and coffee cup!
-
 High ceilings, with timber floors, Desk & Studio is a flexible space that can be used for anything from workshops to project collaboration, solo entrepreneurship, seminars and photo shoots.
 
 <dfn id="WFH">*Working from home</dfn>
@@ -35,7 +33,7 @@ Our residents, affectionately called ‘Deskies’ get an all-inclusive range of
 
 Once you book a desk, you’re in! Aside from the personal concierge service, succulent and coffee mug, all Deskies get the following inclusions:
 
-* 1 awesome desk and chair, which includes lockable drawers and filing cabinet
+* 1 awesome desk and chair and bookshelf to make your own
 * Option of a standing desk – shared layout space for creativity, samples, presentations
 * Access to [Studio space](/photo-studio/)
 * Unlimited Internet via NBN WiFi (250Mbps downstream, 100Mbps upstream)
