@@ -3,6 +3,15 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
+// Desk & Studio brand palette (2026 brand brief)
+$ds-cream:      #FCF1E9; // Terrace Cream: page background
+$ds-wine:       #521C29; // Enmore Wine: body text, dark sections, footer
+$ds-terracotta: #B2593B; // Terracotta: section blocks, subheads
+$ds-brick:      #8C3115; // Petersham Brick: buttons, links, hover states
+$ds-gold:       #F3B23E; // Golden Hour: highlights, badges, accents on dark
+$ds-teal:       #4B8377; // Marrickville Teal: occasional section block, icons
+$ds-rust:       #C24C33; // Rust: stripes and small details only
+
 // Color system
 
 $white:    #fff !default;
@@ -66,15 +75,15 @@ $colors: map-merge(
 
 // $primary:       $blue !default;
 // $primary:       #88B04B !default;
-$primary:       #878786 !default;
+$primary:       $ds-brick !default;
 // $secondary:     $gray-600 !default;
-$secondary:     #000 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$secondary:     $ds-wine !default;
+$success:       $ds-teal !default;
+$info:          $ds-terracotta !default;
+$warning:       $ds-gold !default;
+$danger:        $ds-brick !default;
+$light:         $ds-cream !default;
+$dark:          $ds-wine !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -98,8 +107,8 @@ $theme-color-interval:      8% !default;
 $yiq-contrasted-threshold:  150 !default;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
-$yiq-text-dark:             $gray-900 !default;
-$yiq-text-light:            $white !default;
+$yiq-text-dark:             $ds-wine !default;
+$yiq-text-light:            $ds-cream !default;
 
 // Characters which are escaped by the escape-svg function
 $escaped-characters: (
@@ -168,8 +177,8 @@ $sizes: map-merge(
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-bg:                   $ds-cream !default;
+$body-color:                $ds-wine !default;
 
 
 // Links
@@ -177,8 +186,8 @@ $body-color:                $gray-900 !default;
 // Style anchor elements.
 
 $link-color:                              theme-color("primary") !default;
-$link-decoration:                         none !default;
-$link-hover-color:                        darken($link-color, 15%) !default;
+$link-decoration:                         underline !default;
+$link-hover-color:                        $ds-wine !default;
 $link-hover-decoration:                   underline !default;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 $emphasized-link-hover-darken-percentage: 15% !default;
@@ -238,10 +247,10 @@ $line-height-lg:              1.5 !default;
 $line-height-sm:              1.5 !default;
 
 $border-width:                1px !default;
-$border-color:                $gray-300 !default;
+$border-color:                rgba($ds-wine, .25) !default;
 
-$border-radius:               .25rem !default;
-$border-radius-lg:            .3rem !default;
+$border-radius:               12px !default;
+$border-radius-lg:            18px !default;
 $border-radius-sm:            .2rem !default;
 
 $rounded-pill:                50rem !default;
@@ -250,7 +259,7 @@ $box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
 $box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
 $box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 
-$component-active-color:      $white !default;
+$component-active-color:      $ds-cream !default;
 $component-active-bg:         theme-color("primary") !default;
 
 $caret-width:                 .3em !default;
@@ -281,8 +290,7 @@ $embed-responsive-aspect-ratios: join(
 $font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // $font-family-base:            $font-family-sans-serif !default;
-/*$font-family-base:            "Glacial Indifference Regular", sans-serif !default;*/
-$font-family-base:            "Glacial Indifference Regular" !default;
+$font-family-base:            "Space Mono", ui-monospace, monospace !default;
 // stylelint-enable value-keyword-case
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
@@ -296,7 +304,7 @@ $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
-$line-height-base:            1.5 !default;
+$line-height-base:            1.65 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
@@ -307,9 +315,9 @@ $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      $spacer * .5 !default;
 // $headings-font-family:        null !default;
-$headings-font-family:        "League Spartan", sans-serif !default;
-$headings-font-weight:        500 !default;
-$headings-line-height:        1.2 !default;
+$headings-font-family:        "Alfa Slab One", Georgia, serif !default;
+$headings-font-weight:        400 !default;
+$headings-line-height:        1.0 !default;
 $headings-color:              null !default;
 
 $display1-size:               6rem !default;
@@ -328,13 +336,13 @@ $lead-font-weight:            300 !default;
 
 $small-font-size:             .875em !default;
 
-$text-muted:                  $gray-600 !default;
+$text-muted:                  rgba($ds-wine, .8) !default;
 
 $blockquote-small-color:      $gray-600 !default;
 $blockquote-small-font-size:  $small-font-size !default;
 $blockquote-font-size:        $font-size-base * 1.25 !default;
 
-$hr-border-color:             rgba($black, .1) !default;
+$hr-border-color:             $ds-rust !default;
 $hr-border-width:             $border-width !default;
 
 $mark-padding:                .2em !default;
@@ -398,7 +406,7 @@ $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
 
 $input-btn-focus-width:       .2rem !default;
-$input-btn-focus-color:       rgba($component-active-bg, .25) !default;
+$input-btn-focus-color:       rgba($ds-gold, .9) !default;
 $input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
 $input-btn-padding-y-sm:      .25rem !default;
@@ -477,12 +485,12 @@ $input-padding-x-lg:                    $input-btn-padding-x-lg !default;
 $input-font-size-lg:                    $input-btn-font-size-lg !default;
 $input-line-height-lg:                  $input-btn-line-height-lg !default;
 
-$input-bg:                              $white !default;
+$input-bg:                              $ds-cream !default;
 $input-disabled-bg:                     $gray-200 !default;
 
-$input-color:                           $gray-700 !default;
-$input-border-color:                    $gray-400 !default;
-$input-border-width:                    $input-btn-border-width !default;
+$input-color:                           $ds-wine !default;
+$input-border-color:                    $ds-wine !default;
+$input-border-width:                    2px !default;
 $input-box-shadow:                      inset 0 1px 1px rgba($black, .075) !default;
 
 $input-border-radius:                   $border-radius !default;
@@ -490,12 +498,12 @@ $input-border-radius-lg:                $border-radius-lg !default;
 $input-border-radius-sm:                $border-radius-sm !default;
 
 $input-focus-bg:                        $input-bg !default;
-$input-focus-border-color:              lighten($component-active-bg, 25%) !default;
+$input-focus-border-color:              $ds-wine !default;
 $input-focus-color:                     $input-color !default;
 $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 
-$input-placeholder-color:               $gray-600 !default;
+$input-placeholder-color:               rgba($ds-wine, .75) !default;
 $input-plaintext-color:                 $body-color !default;
 
 $input-height-border:                   $input-border-width * 2 !default;
@@ -537,7 +545,7 @@ $custom-control-indicator-bg:           $input-bg !default;
 
 $custom-control-indicator-bg-size:      50% 50% !default;
 $custom-control-indicator-box-shadow:   $input-box-shadow !default;
-$custom-control-indicator-border-color: $gray-500 !default;
+$custom-control-indicator-border-color: $ds-wine !default;
 $custom-control-indicator-border-width: $input-border-width !default;
 
 $custom-control-label-color:            null !default;
@@ -555,9 +563,9 @@ $custom-control-indicator-focus-box-shadow:     $input-focus-box-shadow !default
 $custom-control-indicator-focus-border-color:   $input-focus-border-color !default;
 
 $custom-control-indicator-active-color:         $component-active-color !default;
-$custom-control-indicator-active-bg:            lighten($component-active-bg, 35%) !default;
+$custom-control-indicator-active-bg:            $ds-gold !default;
 $custom-control-indicator-active-box-shadow:    null !default;
-$custom-control-indicator-active-border-color:  $custom-control-indicator-active-bg !default;
+$custom-control-indicator-active-border-color:  $ds-wine !default;
 
 $custom-checkbox-indicator-border-radius:       $border-radius !default;
 $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'><path fill='#{$custom-control-indicator-checked-color}' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/></svg>") !default;
@@ -747,12 +755,12 @@ $navbar-dark-disabled-color:        rgba($white, .25) !default;
 $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
 $navbar-dark-toggler-border-color:  rgba($white, .1) !default;
 
-$navbar-light-color:                rgba($black, .5) !default;
-$navbar-light-hover-color:          rgba($black, .7) !default;
-$navbar-light-active-color:         rgba($black, .9) !default;
+$navbar-light-color:                $ds-wine !default;
+$navbar-light-hover-color:          $ds-brick !default;
+$navbar-light-active-color:         $ds-brick !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
 $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
-$navbar-light-toggler-border-color: rgba($black, .1) !default;
+$navbar-light-toggler-border-color: transparent !default;
 
 $navbar-light-brand-color:                $navbar-light-active-color !default;
 $navbar-light-brand-hover-color:          $navbar-light-active-color !default;
@@ -770,7 +778,7 @@ $dropdown-padding-y:                .5rem !default;
 $dropdown-spacer:                   .125rem !default;
 $dropdown-font-size:                $font-size-base !default;
 $dropdown-color:                    $body-color !default;
-$dropdown-bg:                       $white !default;
+$dropdown-bg:                       $ds-cream !default;
 $dropdown-border-color:             rgba($black, .15) !default;
 $dropdown-border-radius:            $border-radius !default;
 $dropdown-border-width:             $border-width !default;
@@ -805,25 +813,25 @@ $pagination-padding-y-lg:           .75rem !default;
 $pagination-padding-x-lg:           1.5rem !default;
 $pagination-line-height:            1.25 !default;
 
-$pagination-color:                  $link-color !default;
-$pagination-bg:                     $white !default;
+$pagination-color:                  $ds-wine !default;
+$pagination-bg:                     $ds-cream !default;
 $pagination-border-width:           $border-width !default;
-$pagination-border-color:           $gray-300 !default;
+$pagination-border-color:           $ds-wine !default;
 
 $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
-$pagination-hover-color:            $link-hover-color !default;
-$pagination-hover-bg:               $gray-200 !default;
-$pagination-hover-border-color:     $gray-300 !default;
+$pagination-hover-color:            $ds-wine !default;
+$pagination-hover-bg:               $ds-gold !default;
+$pagination-hover-border-color:     $ds-wine !default;
 
 $pagination-active-color:           $component-active-color !default;
 $pagination-active-bg:              $component-active-bg !default;
-$pagination-active-border-color:    $pagination-active-bg !default;
+$pagination-active-border-color:    $ds-wine !default;
 
-$pagination-disabled-color:         $gray-600 !default;
-$pagination-disabled-bg:            $white !default;
-$pagination-disabled-border-color:  $gray-300 !default;
+$pagination-disabled-color:         rgba($ds-wine, .6) !default;
+$pagination-disabled-bg:            $ds-cream !default;
+$pagination-disabled-border-color:  rgba($ds-wine, .4) !default;
 
 $pagination-border-radius-sm:       $border-radius-sm !default;
 $pagination-border-radius-lg:       $border-radius-lg !default;
@@ -840,15 +848,15 @@ $jumbotron-bg:                      $gray-200 !default;
 
 $card-spacer-y:                     .75rem !default;
 $card-spacer-x:                     1.25rem !default;
-$card-border-width:                 $border-width !default;
-$card-border-radius:                $border-radius !default;
-$card-border-color:                 rgba($black, .125) !default;
+$card-border-width:                 2px !default;
+$card-border-radius:                18px !default;
+$card-border-color:                 $ds-wine !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
-$card-cap-bg:                       rgba($black, .03) !default;
+$card-cap-bg:                       rgba($ds-wine, .05) !default;
 $card-cap-color:                    null !default;
 $card-height:                       null !default;
 $card-color:                        null !default;
-$card-bg:                           $white !default;
+$card-bg:                           $ds-cream !default;
 
 $card-img-overlay-padding:          1.25rem !default;
 
@@ -961,9 +969,9 @@ $modal-dialog-margin-y-sm-up:       1.75rem !default;
 $modal-title-line-height:           $line-height-base !default;
 
 $modal-content-color:               null !default;
-$modal-content-bg:                  $white !default;
-$modal-content-border-color:        rgba($black, .2) !default;
-$modal-content-border-width:        $border-width !default;
+$modal-content-bg:                  $ds-cream !default;
+$modal-content-border-color:        $ds-wine !default;
+$modal-content-border-width:        2px !default;
 $modal-content-border-radius:       $border-radius-lg !default;
 $modal-content-inner-border-radius: subtract($modal-content-border-radius, $modal-content-border-width) !default;
 $modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5) !default;
@@ -1122,7 +1130,7 @@ $spinner-border-width-sm: .2em !default;
 
 $close-font-size:                   $font-size-base * 1.5 !default;
 $close-font-weight:                 $font-weight-bold !default;
-$close-color:                       $black !default;
+$close-color:                       $ds-wine !default;
 $close-text-shadow:                 0 1px 0 $white !default;
 
 

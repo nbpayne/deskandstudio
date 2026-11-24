@@ -3,28 +3,127 @@
 @import 'vendor/variables';
 @import 'bower_components/bootstrap/scss/mixins/_breakpoints.scss';
 
+// -- BRAND TOKENS --
+// From the Desk & Studio Website Brand Brief (Nov 2026).
+// Sass values live in vendor/_variables.scss; these mirror them for CSS use.
+:root {
+  --ds-cream: #{$ds-cream};
+  --ds-wine: #{$ds-wine};
+  --ds-terracotta: #{$ds-terracotta};
+  --ds-brick: #{$ds-brick};
+  --ds-gold: #{$ds-gold};
+  --ds-teal: #{$ds-teal};
+  --ds-rust: #{$ds-rust};
+
+  --ds-font-display: 'Alfa Slab One', Georgia, serif;
+  --ds-font-sub: 'Shrikhand', Georgia, serif;
+  --ds-font-script: 'Yellowtail', cursive;
+  --ds-font-body: 'Space Mono', ui-monospace, monospace;
+
+  --ds-radius-pill: 999px;
+  --ds-radius-card: 18px;
+  --ds-border: 2px solid var(--ds-wine);
+  --ds-shadow-hard: 4px 4px 0 var(--ds-wine);
+}
+
 // Defaults
 body {
-  font-size: 1.2rem;
+  background-color: var(--ds-cream);
+  color: var(--ds-wine);
+  font-family: var(--ds-font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+@include media-breakpoint-down(xs) {
+  body {
+    font-size: .9375rem; // 15px floor on mobile
+  }
+}
+
+::selection {
+  background-color: var(--ds-gold);
+  color: var(--ds-wine);
 }
 
 // -- ELEMENTS --
 
+h1, h2, h3, h4, h5, h6,
+.script {
+  font-synthesis: none; // display faces only come in one weight
+}
+
+h1, h2 {
+  font-family: var(--ds-font-display);
+  font-weight: 400;
+  letter-spacing: .01em;
+  line-height: 1;
+  overflow-wrap: break-word; // last resort if a single word is still too wide
+  text-transform: uppercase;
+}
+
 h1 {
+  font-size: clamp(2.75rem, 7vw, 5.5rem);
   margin-bottom: 4rem;
   margin-top: 4rem;
+}
+
+// Blog post titles (.display-4 would otherwise fix them at 3.5rem)
+h1.display-4 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+// Phones: uppercase Alfa Slab runs wide, and long words such as
+// "PHOTOGRAPHER'S" (~10.5em) can't wrap. Scale with the viewport so
+// they fit inside the container.
+@include media-breakpoint-down(xs) {
+  h1,
+  h1.display-4 {
+    font-size: clamp(1.5rem, 8vw, 2.75rem);
+  }
+}
+
+h2 {
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+}
+
+h3, h4, h5, h6 {
+  font-family: var(--ds-font-sub);
+  font-weight: 400;
+}
+
+h3 {
+  color: var(--ds-terracotta);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.15;
+}
+
+h4 {
+  font-size: 1.375rem;
+  line-height: 1.2;
 }
 
 h2, h3, h4 {
   margin-top: 3rem;
 }
 
-h4 {
+.script {
+  font-family: var(--ds-font-script);
+  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.label {
+  font-family: var(--ds-font-body);
+  font-size: .8125rem;
+  font-weight: 700;
+  letter-spacing: .08em;
   text-transform: uppercase;
 }
 
 hr {
-  border-bottom: 2px solid theme-color('primary');
+  border-bottom: 2px solid var(--ds-rust);
   border-top: none;
   margin-bottom: 1.5rem;
   margin-left: 0;
@@ -34,13 +133,55 @@ hr {
 
 dt {
   font-size: 1rem;
+  font-weight: 700;
+}
+
+// Links: Brick, 2px underline offset 3px; hover Wine on a Golden Hour highlight
+a {
+  color: var(--ds-brick);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  background-color: var(--ds-gold);
+  color: var(--ds-wine);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--ds-gold);
+  outline-offset: 3px;
+}
+
+// Links that are not text links keep no underline or highlight
+.btn,
+.nav-link,
+.navbar-brand,
+.page-link,
+.card picture a,
+.nav-link:hover,
+.navbar-brand:hover,
+.card picture a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btn:hover,
+.page-link:hover {
+  text-decoration: none;
+}
+
+.text-muted {
+  color: var(--ds-wine) !important;
+  opacity: .85;
 }
 
 // -- LAYOUTS ---
 // Navigation
 .navbar {
-  background-color: #fff;
-  box-shadow: 0 2px 40px 0 rgba(0,0,0,.08);
+  background-color: var(--ds-cream);
+  border-bottom: 4px solid var(--ds-rust); // stripe bar under the header
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -67,32 +208,42 @@ dt {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-size: .875rem;
+  color: var(--ds-wine);
+  font-family: var(--ds-font-body);
+  font-size: .8125rem;
+  font-weight: 700;
+  letter-spacing: .06em;
   text-align: right;
   text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-  color: theme-color('primary');
+  color: var(--ds-brick);
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: theme-color('primary');
+  color: var(--ds-brick);
 }
 
 @include media-breakpoint-up(md) {
   .navbar-light .navbar-nav .nav-link {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid transparent;
     padding: 21px 1rem;
   }
+  .navbar-light .navbar-nav .active>.nav-link,
   .navbar-light .navbar-nav .nav-link:hover {
-    border-bottom-color: theme-color('primary');
-    color: theme-color('primary');
+    border-bottom-color: var(--ds-brick);
+    color: var(--ds-brick);
   }
 }
 
 .navbar-light .navbar-toggler {
   border: none;
+}
+
+.navbar-light .navbar-toggler:focus-visible {
+  outline: 3px solid var(--ds-gold);
+  outline-offset: 3px;
 }
 
 @include media-breakpoint-up(md) {
@@ -109,8 +260,8 @@ main {
 
 // Footer
 footer {
-  background-color: theme-color('secondary');
-  color: theme-color('light');
+  background-color: var(--ds-wine);
+  color: var(--ds-cream);
   font-size: .875rem;
   margin-top: 3rem;
   padding-bottom: 2rem;
@@ -124,6 +275,18 @@ footer {
   }
 }
 
+footer dt {
+  color: var(--ds-gold);
+}
+
+footer a {
+  color: var(--ds-cream);
+}
+
+footer a:hover {
+  color: var(--ds-wine);
+}
+
 footer .logo {
   width: 200px;
 }
@@ -131,19 +294,19 @@ footer .logo {
 footer .social-links {
   font-size: 1.25rem;
   justify-content: center;
-  // list-style-type: none;
-  // padding-left: 0;
-  // text-align: center;
 }
 
-// .social-links .fa {
-  // width: 20px;
-// }
+footer .social-links .nav-link {
+  color: var(--ds-cream);
+}
+
+footer .social-links .nav-link:hover {
+  color: var(--ds-gold);
+}
 
 @include media-breakpoint-up(md) {
   footer .social-links {
     justify-content: flex-end;
-    //text-align: left;
   }
 
   footer .social-links+p {
@@ -152,18 +315,118 @@ footer .social-links {
 }
 
 // -- COMPONENTS --
-// Buttons
-.btn-primary {
-  color: #fff;
+// Buttons: chunky pills with a hard offset shadow
+.btn {
+  border: var(--ds-border);
+  border-radius: var(--ds-radius-pill);
+  box-shadow: var(--ds-shadow-hard);
+  font-family: var(--ds-font-body);
+  font-size: .9375rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  padding: .95em 1.6em;
+  text-transform: uppercase;
 }
 
-// Cards
+.btn:focus,
+.btn.focus,
+.btn:not(:disabled):not(.disabled):active:focus {
+  box-shadow: var(--ds-shadow-hard);
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--ds-gold);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn {
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+
+  .btn:hover {
+    box-shadow: 6px 6px 0 var(--ds-wine);
+    transform: translate(-2px, -2px);
+  }
+
+  .btn:not(:disabled):not(.disabled):active {
+    box-shadow: 1px 1px 0 var(--ds-wine);
+    transform: translate(2px, 2px);
+  }
+}
+
+// Primary: Brick pill, Cream label. The nav "Book now" uses .btn-success
+// in the markup, so it gets the same primary treatment here.
+.btn-primary,
+.navbar .btn-success {
+  background-color: var(--ds-brick);
+  border-color: var(--ds-wine);
+  color: var(--ds-cream);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.navbar .btn-success:hover,
+.navbar .btn-success:focus,
+.navbar .btn-success:not(:disabled):not(.disabled):active {
+  background-color: var(--ds-brick);
+  border-color: var(--ds-wine);
+  color: var(--ds-cream);
+}
+
+// Keep the nav button compact so the header stays under 80px
+.navbar .btn {
+  font-size: .8125rem;
+  padding: .6em 1.2em;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: var(--ds-cream);
+  border-color: var(--ds-wine);
+  color: var(--ds-wine);
+}
+
+// For use on Wine sections
+.btn-gold,
+.btn-gold:hover,
+.btn-gold:focus {
+  background-color: var(--ds-gold);
+  border-color: var(--ds-wine);
+  box-shadow: 4px 4px 0 var(--ds-cream);
+  color: var(--ds-wine);
+}
+
+// Cards: Cream, 2px Wine border, 18px radius, hard shadow
+.card {
+  background-color: var(--ds-cream);
+  border: var(--ds-border);
+  border-radius: var(--ds-radius-card);
+  box-shadow: var(--ds-shadow-hard);
+  overflow: hidden;
+}
+
 .card-deck .card {
   margin-bottom: 1rem;
 }
 
 .card h4 {
   margin-top: 0;
+}
+
+.card-title {
+  font-family: var(--ds-font-sub);
+}
+
+// Prices on plan cards
+.card .display-3 {
+  color: var(--ds-brick);
+  font-family: var(--ds-font-body);
+  font-size: clamp(2.25rem, 4vw, 3rem);
+  font-weight: 700;
 }
 
 .card-columns {
@@ -181,25 +444,111 @@ footer .social-links {
   }
 }
 
+// Images and figures
+// Content images (e.g. the Photo Studio gallery) never exceed their column
+main img {
+  height: auto;
+  max-width: 100%;
+}
+
+.figure-img.rounded {
+  border-radius: var(--ds-radius-card) !important;
+}
+
+.figure-caption {
+  color: var(--ds-wine);
+}
+
 // Table
 table h4 {
   margin-top: 0;
 }
 
-// Forms
+.table {
+  color: var(--ds-wine);
+}
+
+.table th,
+.table td,
+.table thead th {
+  border-color: var(--ds-wine);
+}
+
+// Forms: Cream fields, 2px Wine border, 12px radius, Gold focus ring
+label,
 legend {
-  font-size: 1rem;
+  font-family: var(--ds-font-body);
+  font-size: .8125rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.form-control {
+  background-color: var(--ds-cream);
+  border: var(--ds-border);
+  border-radius: 12px;
+  color: var(--ds-wine);
+  font-family: var(--ds-font-body);
+  font-size: 1rem; // 16px stops iOS zooming
+}
+
+.form-control:focus {
+  background-color: var(--ds-cream);
+  border-color: var(--ds-wine);
+  box-shadow: 0 0 0 3px var(--ds-gold);
+  color: var(--ds-wine);
+}
+
+.invalid-feedback {
+  color: var(--ds-brick);
 }
 
 .custom-control {
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
 
-// Jumbotron
+// Checkbox labels read as sentences, not field labels
+.custom-control-label {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: var(--ds-brick);
+  border-color: var(--ds-wine);
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 3px var(--ds-gold);
+}
+
+// Pagination
+.page-link {
+  font-weight: 700;
+}
+
+.page-link:focus {
+  box-shadow: 0 0 0 3px var(--ds-gold);
+}
+
+.page-item:first-child .page-link {
+  border-bottom-left-radius: var(--ds-radius-pill);
+  border-top-left-radius: var(--ds-radius-pill);
+}
+
+.page-item:last-child .page-link {
+  border-bottom-right-radius: var(--ds-radius-pill);
+  border-top-right-radius: var(--ds-radius-pill);
+}
+
+// Jumbotron (hero)
 .jumbotron {
   background-image: url(/images/heros/home-sm.jpg);
   background-position: center;
-  color: #fff;
+  color: var(--ds-cream);
   height: 575px;
   margin-bottom: 2rem;
 }
@@ -210,6 +559,10 @@ legend {
 
 .desks .jumbotron {
   background-image: url(/images/heros/desks-sm.jpg);
+}
+
+.equipment-hire .jumbotron {
+  background-image: url(/images/heros/equipment-sm.jpg);
 }
 
 .events .jumbotron {
@@ -248,6 +601,10 @@ legend {
 
   .desks .jumbotron {
     background-image: url(/images/heros/desks-md.jpg);
+  }
+
+  .equipment-hire .jumbotron {
+    background-image: url(/images/heros/equipment-md.jpg);
   }
 
   .events .jumbotron {
@@ -295,7 +652,6 @@ legend {
 }
 
 .jumbotron h1 {
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -305,15 +661,27 @@ legend {
   margin: 1rem;
 }
 
+.jumbotron h2 {
+  color: var(--ds-gold);
+  font-family: var(--ds-font-sub);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 @include media-breakpoint-up(md) {
   .jumbotron h1 {
-    font-size: 4rem;
+    font-size: clamp(2.75rem, 6vw, 4rem); // 4rem overflows on tablets
   }
 }
 
+// Solid Wine behind hero text keeps it legible over any photo
 .jumbotron h1 span,
 .jumbotron h2 span {
-  background-color: rgba(theme-color('secondary'), .75);
+  background-color: var(--ds-wine);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 .25em;
 }
 
 // Social links
@@ -327,8 +695,21 @@ legend {
 }
 
 // Modal
+.modal-content {
+  background-color: var(--ds-cream);
+  border: var(--ds-border);
+  border-radius: var(--ds-radius-card);
+  box-shadow: var(--ds-shadow-hard);
+}
+
 .modal-body > h2 {
   margin-top: 0;
+}
+
+.close {
+  color: var(--ds-wine);
+  opacity: 1;
+  text-shadow: none;
 }
 
 // Star ratings

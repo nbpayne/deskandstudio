@@ -3,16 +3,14 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
+// Trimmed to the icons the site actually uses (footer and thanks page
+// social links). Add more `.fa-*` lines here if new icons are needed.
 @import 'bower_components/font-awesome/scss/variables';
 @import 'bower_components/font-awesome/scss/mixins';
 @import 'bower_components/font-awesome/scss/path';
 @import 'bower_components/font-awesome/scss/core';
-@import 'bower_components/font-awesome/scss/larger';
-@import 'bower_components/font-awesome/scss/fixed-width';
-@import 'bower_components/font-awesome/scss/list';
-@import 'bower_components/font-awesome/scss/bordered-pulled';
-@import 'bower_components/font-awesome/scss/animated';
-@import 'bower_components/font-awesome/scss/rotated-flipped';
-@import 'bower_components/font-awesome/scss/stacked';
-@import 'bower_components/font-awesome/scss/icons';
 @import 'bower_components/font-awesome/scss/screen-reader';
+
+.#{$fa-css-prefix}-instagram:before { content: $fa-var-instagram; }
+.#{$fa-css-prefix}-facebook:before  { content: $fa-var-facebook; }
+.#{$fa-css-prefix}-linkedin:before  { content: $fa-var-linkedin; }
